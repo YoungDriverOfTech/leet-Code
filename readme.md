@@ -8,3 +8,4 @@
 | 2022/01/04 | [剑指 Offer 06. 从尾到头打印链表](https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)  | 链表 |  Done | 简单 | [Solution](./src/offer/PrintReverseLinkedList.java)  |
 | 2022/01/04 | [剑指 Offer 24. 反转链表](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)  | 链表 |  Done | 简单 | [Solution](./src/offer/ReverseLinkedList.java)  |
 | 2022/01/04 | [剑指 Offer 35. 复杂链表的复制](https://leetcode-cn.com/problems/fu-za-lian-biao-de-fu-zhi-lcof/)  | 链表 |  Done | 中等 | [Solution](./src/offer/CopyRandomList.java)  |
+| 2022/01/05 | [剑指 Offer 05. 替换空格](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)  | 字符串 |  Done | 简单 | [Solution](./src/offer/ReplaceSpace.java)  |
