@@ -13,3 +13,4 @@
 | 2022/01/06 | [剑指 Offer 03. 数组中重复的数字](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)  | 数组 |  Done | 简单 | [Solution](./src/offer/FindRepeatNumber.java)  |
 | 2022/01/06 | [剑指 Offer 53 - I. 在排序数组中查找数字 I](https://leetcode-cn.com/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/)  | 数组 |  Done | 简单 | [Solution](./src/offer/CountRepeatElement.java)  |
 | 2022/01/06 | [剑指 Offer 53 - II. 0～n-1中缺失的数字](https://leetcode-cn.com/problems/que-shi-de-shu-zi-lcof/)  | 数组 |  Done | 简单 | [Solution](./src/offer/MissingNumber.java)  |
+| 2022/01/07 | [剑指 Offer 04. 二维数组中的查找](https://leetcode-cn.com/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)  | 数组 |  Done | 中等 | [Solution](./src/offer/FindNumberIn2DArray.java)  |
