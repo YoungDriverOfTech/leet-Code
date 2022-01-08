@@ -1,9 +1,6 @@
 package offer;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class PrintTreeAsToggleOrder {
     public List<List<Integer>> levelOrder(TreeNode root) {
@@ -38,6 +35,24 @@ public class PrintTreeAsToggleOrder {
             result.add(temp);
         }
         return result;
+    }
+
+    public List<List<Integer>> levelOrder_1(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<>();
+        List<List<Integer>> res = new ArrayList<>();
+        if(root != null) queue.add(root);
+        while(!queue.isEmpty()) {
+            List<Integer> tmp = new ArrayList<>();
+            for(int i = queue.size(); i > 0; i--) {
+                TreeNode node = queue.poll();
+                tmp.add(node.val);
+                if(node.left != null) queue.add(node.left);
+                if(node.right != null) queue.add(node.right);
+            }
+            if(res.size() % 2 == 1) Collections.reverse(tmp);
+            res.add(tmp);
+        }
+        return res;
     }
 
     public static void main(String[] args) {
