@@ -42,6 +42,6 @@ public class MissingNumber {
     }
 
     public static void main(String[] args) {
-        System.out.println(new MissingNumber().missingNumber_1(new int[]{0,2}));
+        System.out.println(new MissingNumber().missingNumber_1(new int[]{2,0}));
     }
 }
