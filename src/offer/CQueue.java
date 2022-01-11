@@ -1,33 +1,62 @@
 package offer;
 
+import java.util.Deque;
 import java.util.LinkedList;
 
 class CQueue {
+        // my solution
+//    private LinkedList<Integer> stackIn;
+//    private LinkedList<Integer> stackOut;
 
-    private LinkedList<Integer> stackIn;
-    private LinkedList<Integer> stackOut;
+//    public CQueue() {
+//        stackIn = new LinkedList<>();
+//        stackOut = new LinkedList<>();
+//    }
+//
+//    public void appendTail(int value) {
+//        stackIn.add(value); // notice, do not use push method, it will change insert order and effect final result
+//    }
+//
+//    public int deleteHead() {
+//
+//        if (!stackOut.isEmpty()) {
+//            return stackOut.remove();
+//        }
+//
+//        if (!stackIn.isEmpty()) {
+//            stackOut.add(stackIn.remove());
+//        }
+//
+//        return stackOut.isEmpty() ? -1 : stackOut.remove();
+//    }
+
+    Deque<Integer> stack1;
+    Deque<Integer> stack2;
 
     public CQueue() {
-        stackIn = new LinkedList<>();
-        stackOut = new LinkedList<>();
+        stack1 = new LinkedList<>();
+        stack2 = new LinkedList<>();
     }
 
     public void appendTail(int value) {
-        stackIn.add(value); // notice, do not use push method, it will change insert order and effect final result
+        stack1.push(value);
     }
 
     public int deleteHead() {
-
-        if (!stackOut.isEmpty()) {
-            return stackOut.remove();
+        // 如果第二个栈为空
+        if (stack2.isEmpty()) {
+            while (!stack1.isEmpty()) {
+                stack2.push(stack1.pop());
+            }
         }
-
-        if (!stackIn.isEmpty()) {
-            stackOut.add(stackIn.remove());
+        if (stack2.isEmpty()) {
+            return -1;
+        } else {
+            int deleteItem = stack2.pop();
+            return deleteItem;
         }
-
-        return stackOut.isEmpty() ? -1 : stackOut.remove();
     }
+
 
     public static void main(String[] args) {
 
