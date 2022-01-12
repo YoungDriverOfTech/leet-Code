@@ -28,3 +28,4 @@
 | 2022/01/11 | [剑指 Offer 42. 连续子数组的最大和](https://leetcode-cn.com/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof/)  | 动态规划（中等） |  Done | 简单 | [Solution](./src/offer/MaxSubArray.java)  |
 | 2022/01/11 | [剑指 Offer 47. 礼物的最大价值](https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/)  | 动态规划（中等） |  Done | 中等 | [Solution](./src/offer/MaxValue.java)  |
 | 2022/01/12 | [剑指 Offer 46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)  | 动态规划（中等） |  Done | 中等 | [Solution](./src/offer/TranslateNumber.java)  |
+| 2022/01/12 | [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)  | 动态规划（中等） |  Done | 中等 | [Solution](./src/offer/LongestSubString.java)  |
