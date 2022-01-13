@@ -3,12 +3,6 @@ package offer;
 import java.util.Arrays;
 import java.util.Stack;
 
-class ListNode {
-    int val;
-    ListNode next;
-    ListNode(int x) { val = x; }
-}
-
 public class PrintReverseLinkedList {
 
     // my solution
