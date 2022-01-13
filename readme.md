@@ -30,3 +30,4 @@
 | 2022/01/12 | [剑指 Offer 46. 把数字翻译成字符串](https://leetcode-cn.com/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof/)  | 动态规划（中等） |  Done | 中等 | [Solution](./src/offer/TranslateNumber.java)  |
 | 2022/01/12 | [剑指 Offer 48. 最长不含重复字符的子字符串](https://leetcode-cn.com/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/)  | 动态规划（中等） |  Done | 中等 | [Solution](./src/offer/LongestSubString.java)  |
 | 2022/01/13 | [剑指 Offer 18. 删除链表的节点](https://leetcode-cn.com/problems/shan-chu-lian-biao-de-jie-dian-lcof/)  | 双指针（简单） |  Done | 简单 | [Solution](./src/offer/DeleteNode.java)  |
+| 2022/01/13 | [剑指 Offer 22. 链表中倒数第k个节点](https://leetcode-cn.com/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)  | 双指针（简单） |  Done | 简单 | [Solution](./src/offer/GetListNodeReverseOrder.java)  |
