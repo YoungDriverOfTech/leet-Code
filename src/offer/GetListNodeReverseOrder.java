@@ -11,11 +11,9 @@ public class GetListNodeReverseOrder {
             nodeList.addFirst(head);
             head = head.next;
         }
-
         if (nodeList.size() < k) {
             return null;
         }
-
         return nodeList.get(k - 1);
     }
 
