@@ -36,3 +36,4 @@
 | 2022/01/15 | [剑指 Offer 21. 调整数组顺序使奇数位于偶数前面](https://leetcode-cn.com/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) | 双指针（简单）     | Done     | 简单         | [Solution](./src/offer/ExchangeArray.java)           |
 | 2022/01/15 | [剑指 Offer 57. 和为s的两个数字](https://leetcode-cn.com/problems/he-wei-sde-liang-ge-shu-zi-lcof/)                                          | 双指针（简单）     | Done     | 简单         | [Solution](./src/offer/TwoSum.java)                  |
 | 2022/01/15 | [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode-cn.com/problems/fan-zhuan-dan-ci-shun-xu-lcof/)                                          | 双指针（简单）     | Done     | 简单         | [Solution](./src/offer/ReverseWords.java)            |
+| 2022/01/16 | [剑指 Offer 12. 矩阵中的路径](https://leetcode-cn.com/problems/ju-zhen-zhong-de-lu-jing-lcof/)                                              | 搜索与回溯算法（中等） | Done     | 中等         | [Solution](./src/offer/CheckExist.java)              |
