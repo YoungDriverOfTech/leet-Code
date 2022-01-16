@@ -38,8 +38,8 @@ public class MovingCount {
     private int get(int x) {
         int res = 0;
         while (x != 0) {
-            res += x % 10;
-            x /= 10;
+            res += x % 10; // 取余数
+            x /= 10; // 求商
         }
         return res;
     }
