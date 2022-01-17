@@ -31,6 +31,23 @@ public class GetListNodeReverseOrder {
         return node;
     }
 
+    // 假如一共有6个节点，倒数第二个节点就是正数第四个节点
+    public ListNode getKthFromEnd_1_update(ListNode head, int k) {
+        int n = 0;
+        ListNode node = null;
+
+        for (node = head; node != null; node = node.next) {
+            n++;
+        }
+        int count = n -k;
+        ListNode newNode = head;
+        for (int i = 0; i < count; i++) {
+            newNode = newNode.next;
+        }
+
+        return newNode;
+    }
+
     // double pointer
     public ListNode getKthFromEnd_3(ListNode head, int k) {
         ListNode fast = head;
