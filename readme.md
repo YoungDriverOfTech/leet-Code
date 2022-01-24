@@ -1,6 +1,4 @@
 # 剑指Offer
-
-## 数据结构
 | Date                  | Problem                                                                                                                                                              | Category    | Finished           | Difficulty | Solution                                             |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|--------------------|------------|------------------------------------------------------|
 | 2022/01/03            | [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)                                                                  | 栈与队列        | Done               | 简单         | [Solution](./src/offer/CQueue.java)                  |
@@ -55,3 +53,4 @@
 | 2022/01/22            | [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/)                                                      | 分治（中等）      | Done               | 中等         | [Solution](./src/offer/VerifyPostorder.java)         |
 | 2022/01/23            | [剑指 Offer 15. 二进制中1的个数](https://leetcode-cn.com/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/)                                                                          | 位运算（简单）     | Done               | 简单         | [Solution](./src/offer/HammingWeight.java)           |
 | 2022/01/23            | [剑指 Offer 65. 不用加减乘除做加法](https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/)                                                               | 位运算（简单）     | Done               | 简单         | [Solution](./src/offer/BinaryAdd.java)               |
+| 2022/01/24            | [剑指 Offer 56 - I. 数组中数字出现的次数](https://leetcode-cn.com/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof/)                                                         | 位运算（中等）     | Done               | 中等         | [Solution](./src/offer/SingleNumbers.java)           |
