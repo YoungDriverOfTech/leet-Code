@@ -11,4 +11,16 @@ public class HammingWeight {
         }
         return count;
     }
+
+    // 逐位检查二进制中1的个数
+    public int hammingWeight_1(int n) {
+        int ret = 0;
+        for (int i = 0; i < 32; i++) {
+            if ((n & (1 << i)) != 0) {
+                ret++;
+            }
+        }
+        return ret;
+    }
+
 }
