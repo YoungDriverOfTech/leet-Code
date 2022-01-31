@@ -1,15 +1,73 @@
 package offer;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Codec {
+
+    // explanation: https://leetcode-cn.com/problems/xu-lie-hua-er-cha-shu-lcof/solution/mian-shi-ti-37-xu-lie-hua-er-cha-shu-ceng-xu-bian-/
+    // https://www.bilibili.com/video/BV1jy4y1p7jg?from=search&seid=12963601491450374953&spm_id_from=333.337.0.0
+
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
+        if (root == null) {
+            return "";
+        }
 
+        StringBuilder sb = new StringBuilder();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+
+            if (node != null) {
+                sb.append(node.val).append(",");
+            } else {
+                sb.append("null").append(",");
+                continue;
+            }
+            queue.add(node.left);
+            queue.add(node.right);
+        }
+
+        return sb.substring(0, sb.length() - 1);
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
+        if (data.length() == 0) {
+            return null;
+        }
 
+        String[] dataArray = data.split(",");
+        TreeNode root = new TreeNode(Integer.parseInt(dataArray[0]));
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        int i = 1;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+
+            // left node
+            if (!dataArray[i].equals("null")) {
+                TreeNode leftNode = new TreeNode(Integer.parseInt(dataArray[i]));
+                node.left = leftNode;
+                queue.add(leftNode);
+            }
+            i++;
+
+            // right node
+            if (!dataArray[i].equals("null")) {
+                TreeNode rightNode = new TreeNode(Integer.parseInt(dataArray[i]));
+                node.right = rightNode;
+                queue.add(rightNode);
+            }
+            i++;
+        }
+
+        return root;
     }
+
 
     public static void main(String[] args) {
 
@@ -31,5 +89,6 @@ public class Codec {
 
         TreeNode result = codec.deserialize(serializeNode);
         System.out.println();
+
     }
 }
