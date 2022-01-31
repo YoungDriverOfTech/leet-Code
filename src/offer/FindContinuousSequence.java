@@ -17,7 +17,7 @@ public class FindContinuousSequence {
         *
         * 解析：https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/solution/shi-yao-shi-hua-dong-chuang-kou-yi-ji-ru-he-yong-h/
         * */
-        while (left <= target/2) {
+        while (left <= target/2) {  // 或者直接小于号也行
             if (sum < target) {
                 sum += right;
                 right++;
