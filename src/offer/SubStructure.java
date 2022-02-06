@@ -10,6 +10,7 @@ public class SubStructure {
             return true;
         }
 
+        // 请小心这里，这里调用的是本方法，不是下面的那个方法
         return isSubStructure(A.left, B) || isSubStructure(A.right, B);
     }
 
@@ -28,16 +29,35 @@ public class SubStructure {
         }
     }
 
+
     public static void main(String[] args) {
-        TreeNode aTreeNode = new TreeNode(1);
+        TreeNode aTreeNode = new TreeNode(4);
         TreeNode aTreeNodeLeft = new TreeNode(2);
         TreeNode aTreeNodeRight = new TreeNode(3);
         aTreeNode.left = aTreeNodeLeft;
         aTreeNode.right = aTreeNodeRight;
 
-        TreeNode bTreeNode = new TreeNode(3);
-        TreeNode bTreeNodeLeft = new TreeNode(1);
+        TreeNode aTreeNodeLeft1 = new TreeNode(4);
+        TreeNode aTreeNodeRight1 = new TreeNode(5);
+        aTreeNodeLeft.left = aTreeNodeLeft1;
+        aTreeNodeLeft.right = aTreeNodeRight1;
+
+
+        TreeNode aTreeNodeLeft2 = new TreeNode(6);
+        TreeNode aTreeNodeRight2 = new TreeNode(7);
+        aTreeNodeRight.left = aTreeNodeLeft2;
+        aTreeNodeRight.right = aTreeNodeRight2;
+
+        TreeNode aTreeNodeLeft3 = new TreeNode(8);
+        TreeNode aTreeNodeRight3 = new TreeNode(9);
+        aTreeNodeLeft1.left = aTreeNodeLeft3;
+        aTreeNodeLeft3.right = aTreeNodeRight3;
+
+        TreeNode bTreeNode = new TreeNode(4);
+        TreeNode bTreeNodeLeft = new TreeNode(8);
+        TreeNode bTreeNodeRight = new TreeNode(9);
         bTreeNode.left = bTreeNodeLeft;
+        bTreeNode.right = bTreeNodeRight;
         System.out.println(new SubStructure().isSubStructure(aTreeNode, bTreeNode));
 
 //        TreeNode aTreeNode = new TreeNode(3);
