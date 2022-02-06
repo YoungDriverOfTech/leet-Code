@@ -17,7 +17,7 @@ public class PrintTreeAsToggleOrder {
             // ps: addFirst/addLast is Linked's method, so define reference with linkedList
             LinkedList<Integer> temp = new LinkedList<>(); // Linked implements Deque which can insert element in head and tail
 
-            for (int i = queue.size(); i > 0; i--) {
+            for (int i = queue.size(); i > 0; i--) {  // ps 这里是--， 不是++
                 TreeNode headNode = queue.remove();
                 if (result.size() % 2 == 0) { // head layer
                     temp.addLast(headNode.val);
