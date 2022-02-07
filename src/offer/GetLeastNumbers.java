@@ -44,6 +44,7 @@ public class GetLeastNumbers {
         int pivot = arr[left];
         while (left < right) {
             // 如果右边的值大于基准值，就把右指针往左推。 如果小于了基准值，那么就把这个值放到基准值上
+            // ------------------------------- 这块逻辑需要仔细看看，没记起来
             while (left < right && arr[right] >= pivot) {
                 right--;
             }
@@ -56,6 +57,7 @@ public class GetLeastNumbers {
             arr[right] = arr[left];
         }
         arr[left] = pivot;
+        // -------------------------------
         return left;
     }
 }
