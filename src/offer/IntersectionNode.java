@@ -33,10 +33,14 @@ public class IntersectionNode {
             return null;
         }
 
+        // 这一步不能少，因为得记录下头节点，下面的循环要使用
         ListNode pointerA = headA;
         ListNode pointerB = headB;
 
+        // 条件不能写成 headA != headB
         while (pointerA != pointerB) {
+
+            // 因为要对pointer进行操作，所以使用pointerA.next, 然后头节点也需要记录下来，方便遍历的时候使用
             pointerA = pointerA == null ? headB : pointerA.next;
             pointerB = pointerB == null ? headA : pointerB.next;
         }
