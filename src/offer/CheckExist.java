@@ -30,7 +30,7 @@ public class CheckExist {
         boolean result = dfs(board, i + 1, j, words, k + 1)
                 || dfs(board, i - 1, j, words, k + 1)
                 || dfs(board, i, j + 1, words, k + 1)
-                || dfs(board, i, j - 1, words, k + 1);
+                || dfs(board, i, j - 1, words, k + 1);  // 直接拷贝的话，注意不要把条件写错了
 
         // recovery old value when deep search check is finished.(from top-left corner of board)
         // when this line is executed which indicates match the word[k] correctly
@@ -38,6 +38,7 @@ public class CheckExist {
 
         return result;
     }
+
 
     public static void main(String[] args) {
         char[][] board = {
