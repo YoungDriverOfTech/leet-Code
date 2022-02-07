@@ -1,20 +1,20 @@
 package offer;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
 public class PathSum {
 
-    List<List<Integer>> result = new LinkedList<>();
-    LinkedList<Integer> paths = new LinkedList<>();
-
     public List<List<Integer>> pathSum(TreeNode root, int target) {
-        dfs(root, target);
+        List<List<Integer>> result = new ArrayList<>();
+        LinkedList<Integer> paths = new LinkedList<>();
+        dfs(result, paths, root, target);
+
         return result;
     }
 
-    // 深度优先
-    private void dfs(TreeNode root, int target) {
+    private void dfs(List<List<Integer>> result, LinkedList<Integer> paths, TreeNode root, int target) {
         if (root == null) {
             return;
         }
@@ -23,15 +23,12 @@ public class PathSum {
         paths.add(root.val);
 
         if (root.left == null && root.right == null && target == 0) {
-            // must use constructor to deep copy
-            result.add(new LinkedList<>(paths));
+            result.add(new LinkedList<Integer>(paths));
         }
 
-        // search left paths
-        dfs(root.left, target);
-        dfs(root.right, target);
+        dfs(result, paths, root.left, target);
+        dfs(result, paths, root.right, target);
 
-        // back to parent node and check another one child node
         paths.removeLast();
     }
 
