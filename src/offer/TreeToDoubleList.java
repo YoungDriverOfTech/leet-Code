@@ -15,6 +15,7 @@ public class TreeToDoubleList {
     }
 */
 
+    // 用全局变量或着用一个map来装这两个节点，写成本地变量，力扣跑不过去
     TreeNode head = null;
     TreeNode pre = null;
 
