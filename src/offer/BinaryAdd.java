@@ -2,6 +2,7 @@ package offer;
 
 public class BinaryAdd {
     // explanation: https://www.bilibili.com/video/BV1F7411j79e?from=search&seid=17789840221403858780&spm_id_from=333.337.0.0
+    // 看这个题解： https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/solution/dian-zan-yao-wo-zhi-dao-ni-xiang-kan-dia-ovxy/
     public int add(int a, int b) {
 
         int sum1 = Integer.MIN_VALUE; // 本位

@@ -28,4 +28,36 @@ public class SingleNumbers {
 
         return new int[]{x, y};
     }
+
+    public int[] singleNumbers_2(int[] nums) {
+
+        // get non-duplicate numbers ^ operation result
+        int temp = 0;
+        for (int i = 0; i < nums.length; i++) {
+            temp ^= nums[i];
+        }
+
+        // find number that can separate non-duplicate numbers through ^ operation
+        int separateNum = 1;
+        for (int i = 0; i <= 31; i++) {
+            if ((temp & separateNum) == 0) {    // 注意，这里的条件不能写成 (temp & separateNum) != 1
+                separateNum <<= 1;
+            } else {
+                break;
+            }
+        }
+
+        // find non-duplicate numbers
+        int num1 = 0;
+        int num2 = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if ((separateNum & nums[i]) == 0) {
+                num1 ^= nums[i];
+            } else {
+                num2 ^= nums[i];
+            }
+        }
+
+        return new int[]{num1, num2};
+    }
 }
