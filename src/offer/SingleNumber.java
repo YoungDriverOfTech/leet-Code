@@ -19,6 +19,27 @@ public class SingleNumber {
         return res;
     }
 
+    public int singleNumber_1(int[] nums) {
+        int[] dp = new int[32];
+        for (int num : nums) {
+            for (int i = 0; i < 32; i++) {
+                if (((num >> i) & 1) == 1) {
+                    dp[i] += 1;
+                }
+            }
+        }
+
+        int result = 0;
+        for (int i = dp.length - 1; i >= 0; i--) {
+            int num = dp[i];
+            result <<= 1;   // 注意 这个位移动应该写到 if判断的前面，
+            if (num % 3 == 1) {
+                result ^= 1;
+            }
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         new SingleNumber().singleNumber(new int[]{3, 4, 3, 3});
     }
