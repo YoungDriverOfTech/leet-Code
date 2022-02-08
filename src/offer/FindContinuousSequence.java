@@ -26,7 +26,7 @@ public class FindContinuousSequence {
                 left++;
             } else {
                 int[] arr = new int[right - left];
-                for (int i = left, j = left; i < right; i++) {
+                for (int i = left, j = left; i < right; i++) {      // 注意：i<right 不是小于arr.size()
                     arr[i - j] = i;
                 }
                 resultList.add(arr);
@@ -37,6 +37,6 @@ public class FindContinuousSequence {
             }
         }
 
-        return resultList.toArray(new int[resultList.size()][]);
+        return resultList.toArray(new int[resultList.size()][]);    // 注意： new int[][] 有两个中括号，不是一个
     }
 }
