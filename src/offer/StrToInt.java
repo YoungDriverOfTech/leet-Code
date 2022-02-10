@@ -8,7 +8,7 @@ public class StrToInt {
             return 0;
         }
 
-        // 判断第一个字符是不是有效字符（为正负号或者数字），如果不是的话直接返回0
+        // 判断第一个字符是不是有效字符（为正负号或者数字），如果不是的话直接返回0  注意，这里的条件要用&&
         if (str.charAt(0) != '+' && str.charAt(0) != '-' && (str.charAt(0) < '0' || str.charAt(0) > '9')) {
             return 0;
         }
@@ -41,6 +41,21 @@ public class StrToInt {
         }
 
         return Integer.parseInt(result.toString());
+    }
+
+    public int strToInt_1(String str) {
+        char[] c = str.trim().toCharArray();
+        if(c.length == 0) return 0;
+        int res = 0, bndry = Integer.MAX_VALUE / 10;
+        int i = 1, sign = 1;
+        if(c[0] == '-') sign = -1;
+        else if(c[0] != '+') i = 0;
+        for(int j = i; j < c.length; j++) {
+            if(c[j] < '0' || c[j] > '9') break;
+            if(res > bndry || res == bndry && c[j] > '7') return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            res = res * 10 + (c[j] - '0');
+        }
+        return sign * res;
     }
 
     public static void main(String[] args) {
