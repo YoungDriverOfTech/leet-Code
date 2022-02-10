@@ -6,6 +6,55 @@ import java.util.List;
 
 public class SpiralOrder {
 
+    public int[] spiralOrder_1(int[][] matrix) {
+        if (matrix == null || matrix.length == 0) {
+            return new int[0];
+        }
+
+        int left = 0;
+        int right = matrix[0].length - 1;
+        int top = 0;
+        int bottom = matrix.length - 1;
+
+        // result and index
+        int x = 0;
+        int[] result = new int[matrix.length * matrix[0].length];
+
+        while (true) {
+            // left -> right
+            for (int i = left; i <= right; i++) {
+                result[x++] = matrix[top][i];
+            }
+            if (++top > bottom) {
+                break;
+            }
+
+            // top -> bottom
+            for (int i = top; i <= bottom; i++) {
+                result[x++] = matrix[i][right];
+            }
+            if (left > --right) {
+                break;
+            }
+
+            // right -> left
+            for (int i = right; i >= left; i--) {
+                result[x++] = matrix[bottom][i];
+            }
+            if (top > --bottom) {
+                break;
+            }
+
+            // bottom -> top
+            for (int i = bottom; i >= top; i--) {
+                result[x++] = matrix[i][left];
+            }
+            if (right < ++left) {
+                break;
+            }
+        }
+        return result;
+    }
 
     // my solution
     // 重新做的时候优化一下代码，参考：https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/mian-shi-ti-29-shun-shi-zhen-da-yin-ju-zhen-she-di/
