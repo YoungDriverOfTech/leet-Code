@@ -10,6 +10,8 @@ public class NthUglyNumber {
         resultArray[1] = 1;
 
         for (int i = 2; i < n + 1; i++) {
+
+            // 应该用数组里面的值来计算丑数，而不是用索引来计算
             int nextUglyNo = Math.min(Math.min(resultArray[p2] * 2, resultArray[p3] * 3), resultArray[p5] * 5);
             resultArray[i] = nextUglyNo;
 
