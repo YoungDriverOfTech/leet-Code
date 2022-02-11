@@ -44,21 +44,44 @@ public class StrToInt {
     }
 
     public int strToInt_1(String str) {
-        char[] c = str.trim().toCharArray();
-        if(c.length == 0) return 0;
-        int res = 0, bndry = Integer.MAX_VALUE / 10;
-        int i = 1, sign = 1;
-        if(c[0] == '-') sign = -1;
-        else if(c[0] != '+') i = 0;
-        for(int j = i; j < c.length; j++) {
-            if(c[j] < '0' || c[j] > '9') break;
-            if(res > bndry || res == bndry && c[j] > '7') return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
-            res = res * 10 + (c[j] - '0');
+        char[] chars = str.trim().toCharArray();
+        if (chars.length == 0) {
+            return 0;
         }
-        return sign * res;
+
+        int result = 0;
+        int sign = 1; // final result + or -
+        int index = 1; // index for loop
+        int boundary = Integer.MAX_VALUE / 10;
+
+        if (chars[0] == '-') {
+            sign = -1;
+        } else if (chars[0] != '+') {
+            index = 0;
+        }
+
+        for (int i = index; i < chars.length; i++) {
+            char ch = chars[i];
+            if (ch < '0' || ch > '9') {
+                break;
+            }
+
+            // check boundary
+            if (result > boundary || (result == boundary && ch > '7')) {
+                return sign == 1 ? Integer.MAX_VALUE : Integer.MIN_VALUE;
+            }
+
+            // append result
+            result = result * 10 + (ch - '0');
+        }
+
+        return result * sign;
     }
 
     public static void main(String[] args) {
         System.out.println(new StrToInt().strToInt("3.14159"));
+
+        int a = '4' - '0';  // 一个字符减去一个字符'0'，就能得出int的字符
+        System.out.println(a);
     }
 }
