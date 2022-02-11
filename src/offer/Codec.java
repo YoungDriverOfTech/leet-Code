@@ -69,6 +69,65 @@ public class Codec {
     }
 
 
+    // second time
+    public String serialize_1(TreeNode root) {
+        if (root == null) {
+            return "null";
+        }
+
+        // queue for loop node
+        StringBuilder sb = new StringBuilder();
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            if (node != null) {
+                sb.append(node.val).append(",");
+            } else {
+                sb.append("null").append(",");
+                continue;
+            }
+
+            queue.add(node.left);
+            queue.add(node.right);
+        }
+
+        return sb.substring(0, sb.length() - 1);    // delete last ,
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize_1(String data) {
+        if (data.equals("null")) {
+            return null;
+        }
+
+        String[] dataArr = data.split(",");
+        TreeNode root = new TreeNode(Integer.parseInt(dataArr[0]));
+        Queue<TreeNode> queue = new LinkedList<>();
+        queue.add(root);
+
+        int index = 1;
+        while (!queue.isEmpty()) {
+            TreeNode node = queue.poll();
+            String leftNodeStr = dataArr[index];
+            if (!"null".equals(leftNodeStr)) {
+                node.left = new TreeNode(Integer.parseInt(leftNodeStr));
+                queue.add(node.left);   // 注意，把节点加到队列里面去，否则只有根结点被处理
+            }
+            index++;
+
+            String rightNodeStr = dataArr[index];
+            if (!"null".equals(rightNodeStr)) {
+                node.right = new TreeNode(Integer.parseInt(rightNodeStr));
+                queue.add(node.right);  // 注意，把节点加到队列里面去，否则只有根结点被处理
+            }
+            index++;
+        }
+
+        return root;
+    }
+
     public static void main(String[] args) {
 
         TreeNode node1 = new TreeNode(1);
