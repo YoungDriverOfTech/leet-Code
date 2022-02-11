@@ -9,7 +9,7 @@ public class Permutation {
         c = s.toCharArray();
         dfs(0);
 
-        return res.toArray(new String[res.size()]);
+        return res.toArray(new String[0]);
     }
 
     private void dfs(int startIndex) {
@@ -41,6 +41,32 @@ public class Permutation {
         c[i] = tmp;
     }
 
+    // second time
+    public String[] permutation_1(String s) {
+        char[] chars = s.toCharArray();
+        boolean[] visited = new boolean[chars.length];
+        Set<String> list = new HashSet<>();
+
+        dfs_1(chars, visited, list, "");
+
+        return list.toArray(new String[0]);
+    }
+
+    private void dfs_1(char[] chars, boolean[] visited, Set<String> list, String s) {
+        if (s.length() == chars.length) {
+            list.add(s);
+            return;
+        }
+
+        for (int i = 0; i < chars.length; i++) {
+            if (visited[i]) {
+                continue;
+            }
+            visited[i] = true;
+            dfs_1(chars, visited, list, s + chars[i]);
+            visited[i] = false;
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println(Arrays.toString(new Permutation().permutation("abc")));
