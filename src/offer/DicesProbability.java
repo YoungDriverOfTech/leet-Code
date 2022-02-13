@@ -44,4 +44,40 @@ public class DicesProbability {
 
         return ans;
     }
+
+    public double[] dicesProbability_1(int n) {
+        // dp[][] 【骰子数量】【面朝上点数和】=【出现的情况数量】
+        int[][] dp = new int[n][6 * n]; // 骰子最大值6，有n个骰子，最大值就是6*n
+
+        // 初始化一个骰子的情况
+        for (int i = 0; i < 6; i++) {   // i < 6, 不能是i < n, 因为我们需要初始化6个面的情况
+            dp[0][i] = 1;
+        }
+
+        // 例子：假如两个骰子，那么面朝上的点数是2-12. 就等于6n-n + 1 = 5n + 1
+        double[] result = new double[5 * n + 1];
+
+        // 转移方程
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < 6 * n; j++) {
+                for (int k = 1; k <= 6; k++) {
+                    if (i - 1 >= 0 && j - k >= 0){
+                        dp[i][j] += dp[i - 1][j - k];
+                    }
+                }
+            }
+        }
+
+        // 算出总数来求概率
+        double all = Math.pow(6.0, n);
+        for (int i = 0; i < result.length; i++) {
+            result[i] = dp[n -1][n - 1 + i] / all;
+        }
+
+        return result;
+    }
+
+    public static void main(String[] args) {
+        new DicesProbability().dicesProbability(1);
+    }
 }
