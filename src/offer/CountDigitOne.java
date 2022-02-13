@@ -43,6 +43,34 @@ public class CountDigitOne {
         return res;
     }
 
+    // 如果cur大于1 -> (a + 1) * base
+    // cur == 1 -> a * base + b + 1
+    // cur < 1 -> a * base
+    // explanation: https://www.bilibili.com/video/BV1v5411J77K/?spm_id_from=333.788
+    public int countDigitOne_1(int n) {
+        long base = 1;  // 这几个变量需要定义成long的，否则会超过int的最大值
+        int result = 0;
+
+
+        while (base <= n) {
+            long a = n / base;  // 这几个变量需要定义成long的，否则会超过int的最大值
+            long cur = a % 10;  // 这几个变量需要定义成long的，否则会超过int的最大值
+            long b = n % base;  // 这几个变量需要定义成long的，否则会超过int的最大值
+            a /= 10;
+
+            if (cur > 1) {
+                result += (a + 1) * base;
+            } else if (cur == 1) {
+                result += a * base + b + 1;
+            } else {
+                result += a * base;
+            }
+            base *= 10;
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         System.out.println(new CountDigitOne().countDigitOne(1410065408));
     }
