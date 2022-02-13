@@ -17,6 +17,30 @@ public class FindNthDigit {
         return Long.toString(num).charAt((n - 1) % digit) - '0'; // 3.
     }
 
+
+    public int findNthDigit_1(int n) {
+        long start = 1;
+        long digit = 1;
+        long count = 9 * start * digit;
+
+        while (n > count) {
+            n -= count;
+
+            // next loop
+            start *= 10;
+            digit += 1;
+            count = 9 * start * digit;
+        }
+
+        // calculate num   找规律
+        long num = start + (n - 1) / digit;
+        int index = (int) ((n - 1) % digit);
+
+        // 转换结果
+        char resultChar = String.valueOf(num).charAt(index);
+        return Integer.parseInt(String.valueOf(resultChar));
+    }
+
     public static void main(String[] args) {
         System.out.println(new FindNthDigit().findNthDigit(10));
     }
