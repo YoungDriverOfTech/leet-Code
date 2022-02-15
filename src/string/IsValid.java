@@ -1,8 +1,6 @@
 package string;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Stack;
+import java.util.*;
 
 public class IsValid {
     // 借助栈来实现
@@ -36,5 +34,9 @@ public class IsValid {
         }
 
         return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(Arrays.toString("1 2 3".split(" ", 2)));
     }
 }
