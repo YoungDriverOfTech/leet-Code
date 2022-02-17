@@ -7,6 +7,7 @@ public class GenerateParenthesis {
     /**
      * 假定n是3，那么左右括号加起来就是6个，使用回溯法
      * https://www.bilibili.com/video/BV11L411p7Hx/?spm_id_from=333.788.recommend_more_video.0
+     * https://www.bilibili.com/video/BV1rV411U7ak/?spm_id_from=333.788.recommend_more_video.2
      * */
     public List<String> generateParenthesis(int n) {
         List<String> result = new ArrayList<>();
