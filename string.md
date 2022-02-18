@@ -16,3 +16,4 @@
 | 2022/01/17 | [91. Decode Ways](https://leetcode.com/problems/decode-ways/)                                                                      | ✅        | Medium     | [Solution](./src/string/NumDecodings.java)             |
 | 2022/01/17 | [6. Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/)                                                           | ✅        | Medium     | [Solution](./src/string/Convert.java)                  |
 | 2022/01/18 | [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)                                                    | ✅        | Medium     | [Solution](./src/string/RestoreIpAddresses.java)       |
+| 2022/01/18 | [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                                     | ✅        | Medium     | [Solution](./src/string/Calculate.java)                |
