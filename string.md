@@ -18,3 +18,4 @@
 | 2022/01/18 | [93. Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/)                                                    | ✅        | Medium     | [Solution](./src/string/RestoreIpAddresses.java)       |
 | 2022/01/19 | [227. Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/)                                                     | ✅        | Medium     | [Solution](./src/string/Calculate.java)                |
 | 2022/01/19 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                                                     | ✅        | Easy       | [Solution](./src/string/ValidPalindrome.java)          |
+| 2022/01/19 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                            | ✅        | Medium     | [Solution](./src/string/IntToRoman.java)               |
