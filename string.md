@@ -20,3 +20,4 @@
 | 2022/01/19 | [680. Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                                                     | ✅        | Easy       | [Solution](./src/string/ValidPalindrome.java)          |
 | 2022/01/19 | [12. Integer to Roman](https://leetcode.com/problems/integer-to-roman/)                                                            | ✅        | Medium     | [Solution](./src/string/IntToRoman.java)               |
 | 2022/01/19 | [8. String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/)                                               | ✅        | Medium     | [Solution](./src/string/MyAtoi.java)                   |
+| 2022/01/19 | [67. Add Binary](https://leetcode.com/problems/add-binary/)                                                                        | ✅        | Easy       | [Solution](./src/string/AddBinary.java)                |
