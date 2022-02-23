@@ -8,7 +8,7 @@
 | 2022/02/23 | [53. Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)                                | ✅        | Easy       | [Solution](./src/array/MaxSubArray.java)            |
 | 2022/02/23 | [15. 3Sum](https://leetcode.com/problems/3sum/)                                                        | ✅        | Medium     | [Solution](./src/array/ThreeSum.java)               |
 | 2022/02/23 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✅        | Easy       | [Solution](./src/array/MaxProfit.java)              |
-| 2022/02/23 | [238.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
+| 2022/02/23 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | ✅        | Medium     | [Solution](./src/array/ProductExceptSelf.java)      |
 | 2022/02/23 | [561.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [85.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [169.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
