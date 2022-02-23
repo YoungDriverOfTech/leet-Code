@@ -30,7 +30,7 @@ public class LargestRectangleArea {
                 int width = i - stack.peek() - 1;   // todo 需要在理解一下
                 result = Math.max(result, stackPeakHeight * width);
             }
-            stack.add(i);   // 栈中应该存放索引
+            stack.add(i);   // 栈中应该存放索引，用来计算宽度
         }
         return result;
     }
