@@ -10,8 +10,9 @@
 | 2022/02/23 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | ✅        | Easy       | [Solution](./src/array/MaxProfit.java)              |
 | 2022/02/23 | [238. Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)       | ✅        | Medium     | [Solution](./src/array/ProductExceptSelf.java)      |
 | 2022/02/23 | [561. Array Partition I](https://leetcode.com/problems/array-partition-i/)                             | ✅        | Easy       | [Solution](./src/array/ArrayPairSum.java)           |
-| 2022/02/23 | [85.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
-| 2022/02/23 | [169.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
+| 2022/02/23 | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)    | ✅        | Hard       | [Solution](./src/array/LargestRectangleArea.java)   |
+| 2022/02/23 | [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                              | ✅Todo    | Hard       | [Solution](./src/array/MaximalRectangle.java)       |
+| 2022/02/23 | [169.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅        | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [66.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [88.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [283.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
