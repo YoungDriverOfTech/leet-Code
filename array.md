@@ -12,7 +12,7 @@
 | 2022/02/23 | [561. Array Partition I](https://leetcode.com/problems/array-partition-i/)                             | ✅        | Easy       | [Solution](./src/array/ArrayPairSum.java)           |
 | 2022/02/23 | [84. Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/)    | ✅        | Hard       | [Solution](./src/array/LargestRectangleArea.java)   |
 | 2022/02/23 | [85. Maximal Rectangle](https://leetcode.com/problems/maximal-rectangle/)                              | ✅Todo    | Hard       | [Solution](./src/array/MaximalRectangle.java)       |
-| 2022/02/23 | [169.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅        | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
+| 2022/02/23 | [169. Majority Element](https://leetcode.com/problems/majority-element/)                               | ✅        | Easy       | [Solution](./src/array/MajorityElement.java)        |
 | 2022/02/23 | [66.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [88.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
 | 2022/02/23 | [283.](https://leetcode.com/problems/longest-palindromic-substring/)                                   | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
