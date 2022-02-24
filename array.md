@@ -16,4 +16,4 @@
 | 2022/02/24 | [66. Plus One](https://leetcode.com/problems/plus-one/)                                                | ✅        | Easy       | [Solution](./src/array/PlusOne.java)                |
 | 2022/02/24 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array/)                            | ✅        | Easy       | [Solution](./src/array/Merge.java)                  |
 | 2022/02/24 | [283. Move Zeroes](https://leetcode.com/problems/move-zeroes/)                                         | ✅        | Easy       | [Solution](./src/array/MoveZeroes.java)             |
-| 2022/02/24 | [16.](https://leetcode.com/problems/longest-palindromic-substring/)                                    | ✅ Todo   | Medium     | [Solution](./src/array/LongestPalindrome.java)      |
+| 2022/02/24 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                        | ✅        | Medium     | [Solution](./src/array/ThreeSumClosest.java)        |
