@@ -19,3 +19,4 @@
 | 2022/02/24 | [16. 3Sum Closest](https://leetcode.com/problems/3sum-closest/)                                              | ✅        | Medium     | [Solution](./src/array/ThreeSumClosest.java)        |
 | 2022/02/24 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/)                                        | ✅        | Medium     | [Solution](./src/array/MergeInterval.java)          |
 | 2022/02/24 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | ✅        | Medium     | [Solution](./src/array/MaxProfit2.java)             |
+| 2022/02/24 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/)                                              | ✅Todo    | Medium     | [Solution](./src/array/Rotate.java)                 |
