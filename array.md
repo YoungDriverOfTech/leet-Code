@@ -20,4 +20,4 @@
 | 2022/02/24 | [122. Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | ✅        | Medium     | [Solution](./src/array/MaxProfit2.java)             |
 | 2022/02/25 | [48. Rotate Image](https://leetcode.com/problems/rotate-image/)                                              | ✅        | Medium     | [Solution](./src/array/Rotate.java)                 |
 | 2022/02/25 | [31. 下一个排列](https://leetcode-cn.com/problems/next-permutation/)                                              | ✅        | Medium     | [Solution](./src/array/NextPermutation.java)        |
-| 2022/02/25 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                 | ✅  TODO  | Hard       | [Solution](./src/array/FindMedianSortedArrays.java) |
+| 2022/02/25 | [4. Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)                 | ✅        | Hard       | [Solution](./src/array/FindMedianSortedArrays.java) |

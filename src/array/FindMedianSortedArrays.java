@@ -2,53 +2,50 @@ package array;
 
 public class FindMedianSortedArrays {
 
-
+    // https://leetcode.wang/leetCode-4-Median-of-Two-Sorted-Arrays.html
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        return 1.0;
-    }
-
-
-    // my solution
-    public double findMedianSortedArrays_1(int[] nums1, int[] nums2) {
         int m = nums1.length;
         int n = nums2.length;
-        int[] mergedArray = new int[m + n];
-        int index = 0;
-        int i = 0, j = 0;
-        for (; i < m && j < n;) {
-            if (nums1[i] <= nums2[j]) {
-                mergedArray[index] = nums1[i];
-                i++;
-            } else {
-                mergedArray[index] = nums2[j];
-                j++;
-            }
-            index++;
+
+        // 这里的操作是为了抹除数组个数为奇偶的时候的差别
+        // 比如 m=1 n=2 -> 中位数是2，那么left:2 right:2 -> 中位数=（left+right）/ 2
+        //      m=2 n=2 -> 中位数是2，那么left:2 right:3 -> 中位数=（left+right）/ 2
+        int left = (m + n + 1) / 2; // 代表第k个数
+        int right = (m + n + 2) / 2;
+
+        return ((double)getKth(nums1, 0, m - 1, nums2, 0, n - 1, left) +
+                (double)getKth(nums1, 0, m - 1, nums2, 0, n - 1, right)) * 0.5;
+    }
+
+    private int getKth(int[] nums1, int start1, int end1, int[] nums2, int start2, int end2, int k) {
+        int len1 = end1 - start1 + 1;
+        int len2 = end2 - start2 + 1;
+
+        //让 len1 的长度小于 len2，这样就能保证如果有数组空了，一定是 len1
+        if (len1 > len2) {
+            return getKth(nums2, start2, end2, nums1, start1, end1, k);
+        }
+        if (len1 == 0) {
+            return nums2[start2 + k - 1];
         }
 
-        // merge the rest elements
-        for (; i < m; i++) {
-            mergedArray[index] = nums1[i];
-            index++;
+        // 如果查找到只剩下最后一个k了，那么直接返回
+        if (k == 1) {
+            return Math.min(nums1[start1], nums2[start2]);
         }
 
-        for (; j < n; j++) {
-            mergedArray[index] = nums2[j];
-            index++;
-        }
+        // 比较两个数组k/2个元素的大小
+        int i = start1 + Math.min(len1, k / 2) - 1;
+        int j = start2 + Math.min(len2, k / 2) - 1;
 
-        // find median
-        int midIndex = (mergedArray.length / 2) - 1;    // length need -1
-        if (mergedArray.length % 2 != 0) {
-            return (double) mergedArray[midIndex + 1];  // eg 1,2,3
+        if (nums1[i] < nums2[j]) {
+            return getKth(nums1, i + 1, end1, nums2, start2, end2, k - (i - start1 + 1));
         } else {
-            double result;
-            result = (double)((mergedArray[midIndex] + mergedArray[midIndex + 1]) / 2.0);   // eg 1,2,3,4
-            return result;
+            return getKth(nums1, start1, end1, nums2, j + 1, end2,k - (j - start2 + 1));
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(new FindMedianSortedArrays().findMedianSortedArrays(new int[]{1, 2}, new int[]{3, 4}));
+        System.out.println(new FindMedianSortedArrays().findMedianSortedArrays(new int[]{1, 3}, new int[]{2}));
     }
 }
