@@ -22,15 +22,11 @@ public class GenerateParenthesis {
         }
 
         if (left < n) {
-            str += "(";
-            backTrack(result, left + 1, right, n, str);
-            str = str.substring(0, str.length() - 1);
+            backTrack(result, left + 1, right, n, str + "(");
         }
 
         if (right < left) {
-            str += ")";
-            backTrack(result, left, right + 1, n, str);
-//            str = str.substring(0, str.length() - 1);
+            backTrack(result, left, right + 1, n, str + ")");
         }
     }
 }
