@@ -13,4 +13,16 @@ public class MaxProfit2 {
         }
         return dp[dp.length - 1][0];
     }
+
+    // 只要当前的价格高于前一天的价格，那么就把他卖掉
+    public int maxProfit_1(int[] prices) {
+        int profit = 0;
+        for (int i = 1; i < prices.length; i++) {
+            if (prices[i] - prices[i - 1] > 0) {
+                profit += prices[i] - prices[i - 1];
+            }
+        }
+
+        return profit;
+    }
 }
