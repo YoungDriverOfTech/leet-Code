@@ -6,7 +6,7 @@
 [20道](./string.md)
 
 ## 2.2 数组
-[15道](./array.md)
+[20道](./array.md)
 
 ## 2.3 二分查找
 [15道](./binarySearch.md)
