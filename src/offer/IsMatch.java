@@ -3,6 +3,7 @@ package offer;
 public class IsMatch {
 
     // 解析： https://leetcode-cn.com/problems/zheng-ze-biao-da-shi-pi-pei-lcof/solution/zhu-xing-xiang-xi-jiang-jie-you-qian-ru-shen-by-je/
+    // https://www.bilibili.com/video/BV1CK411c7gx?p=16
     public boolean isMatch(String s, String p) {
         int n = s.length();
         int m = p.length();
