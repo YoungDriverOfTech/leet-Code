@@ -9,7 +9,7 @@
 | 2022/02/28 | [29.](https://leetcode.com/problems/longest-palindromic-substring/)                                              | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
 | 2022/02/28 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✅        | Medium     | [Solution](./src/bs/FindMin.java)           |
 | 2022/02/28 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                               | ✅        | Medium     | [Solution](./src/bs/SearchMatrix.java)      |
-| 2022/02/28 | [222.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
+| 2022/02/28 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                       | ✅        | Medium     | [Solution](./src/bs/CountNodes.java)        |
 | 2022/02/28 | [327.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
 | 2022/02/28 | [69.](https://leetcode.com/problems/longest-palindromic-substring/)                                              | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
 | 2022/02/28 | [378.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
