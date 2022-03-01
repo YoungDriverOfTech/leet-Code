@@ -13,4 +13,4 @@
 | 2022/02/28 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)                                           | Todo     | Hard       | [Solution](./src/bs/CountRangeSum.java)     |
 | 2022/02/28 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                    | ✅        | Easy       | [Solution](./src/bs/MySqrt.java)            |
 | 2022/02/28 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | ✅        | Medium     | [Solution](./src/bs/KthSmallest.java)       |
-| 2022/02/28 | [410.](https://leetcode.com/problems/longest-palindromic-substring/)                                                   | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
+| 2022/02/28 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | ✅        | Medium     | [Solution](./src/bs/FindPeakElement.java)   |
