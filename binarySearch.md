@@ -7,10 +7,11 @@
 | 2022/02/28 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)         | Todo     | Hard       | [Solution](./src/bs/CountSmaller.java)      |
 | 2022/02/28 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)                           | ✅        | Easy       | [Solution](./src/bs/Intersection.java)      |
 | 2022/02/28 | [29.](https://leetcode.com/problems/longest-palindromic-substring/)                                                    | Todo     | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
-| 2022/02/28 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)       | ✅        | Medium     | [Solution](./src/bs/FindMin.java)           |
-| 2022/02/28 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                     | ✅        | Medium     | [Solution](./src/bs/SearchMatrix.java)      |
-| 2022/02/28 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                             | ✅        | Medium     | [Solution](./src/bs/CountNodes.java)        |
-| 2022/02/28 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)                                           | Todo     | Hard       | [Solution](./src/bs/CountRangeSum.java)     |
-| 2022/02/28 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                    | ✅        | Easy       | [Solution](./src/bs/MySqrt.java)            |
-| 2022/02/28 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | ✅        | Medium     | [Solution](./src/bs/KthSmallest.java)       |
-| 2022/02/28 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | ✅        | Medium     | [Solution](./src/bs/FindPeakElement.java)   |
+| 2022/03/01 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)       | ✅        | Medium     | [Solution](./src/bs/FindMin.java)           |
+| 2022/03/01 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                                     | ✅        | Medium     | [Solution](./src/bs/SearchMatrix.java)      |
+| 2022/03/01 | [222. Count Complete Tree Nodes](https://leetcode.com/problems/count-complete-tree-nodes/)                             | ✅        | Medium     | [Solution](./src/bs/CountNodes.java)        |
+| 2022/03/01 | [327. Count of Range Sum](https://leetcode.com/problems/count-of-range-sum/)                                           | Todo     | Hard       | [Solution](./src/bs/CountRangeSum.java)     |
+| 2022/03/01 | [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)                                                                    | ✅        | Easy       | [Solution](./src/bs/MySqrt.java)            |
+| 2022/03/01 | [378. Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | ✅        | Medium     | [Solution](./src/bs/KthSmallest.java)       |
+| 2022/03/01 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                             | ✅        | Medium     | [Solution](./src/bs/FindPeakElement.java)   |
+| 2022/03/01 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                    | ✅        | Easy       | [Solution](./src/bs/SearchInsert.java)      |
