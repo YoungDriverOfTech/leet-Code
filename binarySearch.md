@@ -7,8 +7,8 @@
 | 2022/02/28 | [315. Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)   | Todo     | Hard       | [Solution](./src/bs/CountSmaller.java)      |
 | 2022/02/28 | [349. Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/)                     | ✅        | Easy       | [Solution](./src/bs/Intersection.java)      |
 | 2022/02/28 | [29.](https://leetcode.com/problems/longest-palindromic-substring/)                                              | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
-| 2022/02/28 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✅        | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
-| 2022/02/28 | [240.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
+| 2022/02/28 | [153. Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | ✅        | Medium     | [Solution](./src/bs/FindMin.java)           |
+| 2022/02/28 | [240. Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/)                               | ✅        | Medium     | [Solution](./src/bs/SearchMatrix.java)      |
 | 2022/02/28 | [222.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
 | 2022/02/28 | [327.](https://leetcode.com/problems/longest-palindromic-substring/)                                             | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
 | 2022/02/28 | [69.](https://leetcode.com/problems/longest-palindromic-substring/)                                              | ✅ Todo   | Medium     | [Solution](./src/bs/LongestPalindrome.java) |
