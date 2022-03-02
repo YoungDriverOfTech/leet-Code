@@ -16,3 +16,4 @@
 | 2022/03/01 | [162. Find Peak Element](https://leetcode.com/problems/find-peak-element/)                                                                            | ✅        | Medium     | [Solution](./src/bs/FindPeakElement.java)   |
 | 2022/03/01 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position/)                                                                   | ✅        | Easy       | [Solution](./src/bs/SearchInsert.java)      |
 | 2022/03/01 | [34. Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Todo     | Medium     | [Solution](./src/bs/SearchRange.java)       |
+| 2022/03/02 | [300](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)                                                         | Todo     | Medium     | [Solution](./src/bs/SearchRange.java)       |
