@@ -19,3 +19,4 @@
 | 2022/03/03 | [300. Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)                                                         | ✅        | Medium     | [Solution](./src/bs/LengthOfLIS.java)       |
 | 2022/03/03 | [363. Max Sum of Rectangle No Larger Than K](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k/)                                           | Todo     | Hard       | [Solution](./src/bs/MaxSumSubmatrix.java)   |
 | 2022/03/03 | [350. Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/)                                                           | ✅        | Easy       | [Solution](./src/bs/Intersect.java)         |
+| 2022/03/03 | [209. Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/)                                                                   | ✅        | Medium     | [Solution](./src/bs/MinSubArrayLen.java)    |
