@@ -1,6 +1,8 @@
 package hash;
 
 public class SubarraySum {
+    // https://leetcode-cn.com/problems/subarray-sum-equals-k/solution/he-wei-kde-zi-shu-zu-by-leetcode-solution/
+    // 第二次做的时候，看看别的做法
     public int subarraySum(int[] nums, int k) {
         int left = 0;
         int result = 0;
