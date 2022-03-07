@@ -9,7 +9,7 @@
 [20道](./array.md)
 
 ## 2.3 二分查找
-[20道](./binarySearch.md)
+[17道](./binarySearch.md)
 
 ## 2.4 哈希表
 [20道](./hash.md)
