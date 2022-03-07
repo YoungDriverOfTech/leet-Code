@@ -9,31 +9,31 @@
 [20道](./array.md)
 
 ## 2.3 二分查找
-[15道](./binarySearch.md)
+[20道](./binarySearch.md)
 
 ## 2.4 哈希表
-[15道](./hash.md)
+[20道](./hash.md)
 
 ## 2.5 链表
-[15道](./linkedList.md)
+[20道](./linkedList.md)
 
 ## 2.6 双指针
-[15道](./doublePointor.md)
+[20道](./doublePointor.md)
 
 ## 2.7 栈
-[15道](./stack.md)
+[20道](./stack.md)
 
 ## 2.8 树
-[15道](./tree.md)
+[20道](./tree.md)
 
 ## 2.9 深度优先
-[15道](./dfs.md)
+[20道](./dfs.md)
 
 ## 2.10 广度优先
-[15道](./bfs.md)
+[20道](./bfs.md)
 
 ## 2.11 回溯法
-[15道](./backTracking.md)
+[20道](./backTracking.md)
 
 ## 2.12 排序
-[15道](./order.md)
+[20道](./order.md)
