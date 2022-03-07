@@ -13,3 +13,4 @@
 | 2022/03/07 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)         | ✅        | Easy       | [Solution](./src/hash/ContainsNearbyDuplicate.java) |
 | 2022/03/07 | [18. 4Sum](https://leetcode.com/problems/4sum/)                                            | Todo     | Medium     | [Solution](./src/hash/FourSum.java)                 |
 | 2022/03/07 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)               | ✅        | Easy       | [Solution](./src/hash/ContainsDuplicate.java)       |
+| 2022/03/07 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                            | Todo     | Medium     | [Solution](./src/hash/IsValidSudoku.java)           |
