@@ -15,3 +15,4 @@
 | 2022/03/07 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)               | ✅        | Easy       | [Solution](./src/hash/ContainsDuplicate.java)       |
 | 2022/03/07 | [36. Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)                            | ✅        | Medium     | [Solution](./src/hash/IsValidSudoku.java)           |
 | 2022/03/07 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)         | ✅        | Medium     | [Solution](./src/hash/SubarraySum.java)             |
+| 2022/03/07 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)                         | ✅        | Easy       | [Solution](./src/hash/IsAnagram.java)               |
