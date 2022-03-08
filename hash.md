@@ -9,7 +9,7 @@
 | 2022/03/07 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)               | ✅        | Medium     | [Solution](./src/hash/DailyTemperatures.java)        |
 | 2022/03/07 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                          | Todo     | Hard       | [Solution](./src/hash/SolveSudoku.java)              |
 | 2022/03/07 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)     | ✅        | Medium     | [Solution](./src/hash/TopKFrequent.java)             |
-| 2022/03/07 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                   | Todo     | Hard       | [Solution](./src/hash/PalindromePairs.java)          |
+| 2022/03/07 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                   | ✅        | Hard       | [Solution](./src/hash/PalindromePairs.java)          |
 | 2022/03/07 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)         | ✅        | Easy       | [Solution](./src/hash/ContainsNearbyDuplicate.java)  |
 | 2022/03/07 | [18. 4Sum](https://leetcode.com/problems/4sum/)                                            | ✅        | Medium     | [Solution](./src/hash/FourSum.java)                  |
 | 2022/03/07 | [217. Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)               | ✅        | Easy       | [Solution](./src/hash/ContainsDuplicate.java)        |
