@@ -7,7 +7,7 @@
 | 2022/03/07 | [149. Max Points on a Line](https://leetcode.com/problems/max-points-on-a-line/)           | ✅        | Hard       | [Solution](./src/hash/MaxPoints.java)                |
 | 2022/03/07 | [463. Island Perimeter](https://leetcode.com/problems/island-perimeter/)                   | ✅        | Easy       | [Solution](./src/hash/IslandPerimeter.java)          |
 | 2022/03/07 | [739. Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)               | ✅        | Medium     | [Solution](./src/hash/DailyTemperatures.java)        |
-| 2022/03/07 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                          | Todo     | Hard       | [Solution](./src/hash/SolveSudoku.java)              |
+| 2022/03/07 | [37. Sudoku Solver](https://leetcode.com/problems/sudoku-solver/)                          | ✅        | Hard       | [Solution](./src/hash/SolveSudoku.java)              |
 | 2022/03/07 | [347. Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)     | ✅        | Medium     | [Solution](./src/hash/TopKFrequent.java)             |
 | 2022/03/07 | [336. Palindrome Pairs](https://leetcode.com/problems/palindrome-pairs/)                   | ✅        | Hard       | [Solution](./src/hash/PalindromePairs.java)          |
 | 2022/03/07 | [219. Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/)         | ✅        | Easy       | [Solution](./src/hash/ContainsNearbyDuplicate.java)  |
