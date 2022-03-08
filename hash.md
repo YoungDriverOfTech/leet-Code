@@ -17,4 +17,4 @@
 | 2022/03/07 | [560. Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/)         | ✅        | Medium     | [Solution](./src/hash/SubarraySum.java)              |
 | 2022/03/07 | [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/)                         | ✅        | Easy       | [Solution](./src/hash/IsAnagram.java)                |
 | 2022/03/07 | [187. Repeated DNA Sequences](https://leetcode.com/problems/repeated-dna-sequences/)       | ✅        | Medium     | [Solution](./src/hash/FindRepeatedDnaSequences.java) |
-| 2022/03/07 | [204. Count Primes](https://leetcode.com/problems/count-primes/)                           | Todo     | Medium     | [Solution](./src/hash/CountPrimes.java)              |
+| 2022/03/07 | [204. Count Primes](https://leetcode.com/problems/count-primes/)                           | ✅        | Medium     | [Solution](./src/hash/CountPrimes.java)              |
