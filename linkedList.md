@@ -1,7 +1,7 @@
 # 链表
 | Date       | Problem                                                              | Finished | Difficulty | Solution                                        |
 |------------|----------------------------------------------------------------------|----------|------------|-------------------------------------------------|
-| 2022/01/14 | [2.](https://leetcode.com/problems/longest-palindromic-substring/)   | ✅ Todo   | Medium     | [Solution](./src/string/LongestPalindrome.java) |
+| 2022/01/14 | [2. Add Two Numbers](https://leetcode.com/problems/longest-palindromic-substring/)   | ✅ Todo   | Medium     | [Solution](./src/string/LongestPalindrome.java) |
 | 2022/01/14 | [21.](https://leetcode.com/problems/longest-palindromic-substring/)  | ✅ Todo   | Medium     | [Solution](./src/string/LongestPalindrome.java) |
 | 2022/01/14 | [206.](https://leetcode.com/problems/longest-palindromic-substring/) | ✅ Todo   | Medium     | [Solution](./src/string/LongestPalindrome.java) |
 | 2022/01/14 | [23.](https://leetcode.com/problems/longest-palindromic-substring/)  | ✅ Todo   | Medium     | [Solution](./src/string/LongestPalindrome.java) |
