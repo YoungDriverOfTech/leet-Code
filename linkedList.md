@@ -9,3 +9,4 @@
 | 2022/03/10 | [148. Sort List](https://leetcode.com/problems/sort-list/)                                       | Todo     | Medium     | [Solution](./src/linkedlist/SortList.java)      |
 | 2022/03/10 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                       | ✅        | Easy       | [Solution](./src/linkedlist/HasCycle.java)      |
 | 2022/03/10 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | ✅        | Medium     | [Solution](./src/linkedlist/SwapPairs.java)     |
+| 2022/03/10 | [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/)             | ✅        | Easy       | [Solution](./src/linkedlist/IsPalindrome.java)  |
