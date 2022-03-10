@@ -8,3 +8,4 @@
 | 2022/03/10 | [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | ✅        | Easy       | [Solution](./src/linkedlist/DeleteNode.java)    |
 | 2022/03/10 | [148. Sort List](https://leetcode.com/problems/sort-list/)                                       | Todo     | Medium     | [Solution](./src/linkedlist/SortList.java)      |
 | 2022/03/10 | [141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)                       | ✅        | Easy       | [Solution](./src/linkedlist/HasCycle.java)      |
+| 2022/03/10 | [24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)                    | ✅        | Medium     | [Solution](./src/linkedlist/SwapPairs.java)     |
