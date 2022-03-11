@@ -16,3 +16,4 @@
 | 2022/03/11 | [92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)                      | ✅        | Medium     | [Solution](./src/linkedlist/ReverseBetween.java)      |
 | 2022/03/11 | [25. Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)                  | Todo     | Hard       | [Solution](./src/linkedlist/ReverseKGroup.java)       |
 | 2022/03/11 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | ✅        | Easy       | [Solution](./src/linkedlist/GetIntersectionNode.java) |
+| 2022/03/11 | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                         | ✅        | Medium     | [Solution](./src/linkedlist/OddEvenList.java)         |
