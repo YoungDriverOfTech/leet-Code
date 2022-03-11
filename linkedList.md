@@ -18,3 +18,4 @@
 | 2022/03/11 | [160. Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/) | ✅         | Easy       | [Solution](./src/linkedlist/GetIntersectionNode.java) |
 | 2022/03/11 | [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/)                         | ✅         | Medium     | [Solution](./src/linkedlist/OddEvenList.java)         |
 | 2022/03/11 | [142. Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)                         | ✅Todo双指针法 | Medium     | [Solution](./src/linkedlist/DetectCycle.java)         |
+| 2022/03/11 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)           | ✅         | Easy       | [Solution](./src/linkedlist/RemoveElements.java)      |
