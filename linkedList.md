@@ -21,3 +21,4 @@
 | 2022/03/11 | [203. Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/)           | ✅         | Easy       | [Solution](./src/linkedlist/RemoveElements.java)      |
 | 2022/03/11 | [19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)  | Todo      | Medium     | [Solution](./src/linkedlist/RemoveNthFromEnd.java)    |
 | 2022/03/11 | [86. Partition List](https://leetcode.com/problems/partition-list/)                                      | Todo      | Medium     | [Solution](./src/linkedlist/Partition.java)           |
+
