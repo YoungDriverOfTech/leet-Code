@@ -1,8 +1,9 @@
 # 双指针
-| Date       | Problem                                                                                                       | Finished | Difficulty | Solution                                              |
-|------------|---------------------------------------------------------------------------------------------------------------|----------|------------|-------------------------------------------------------|
-| 2022/03/14 | [344. Reverse String](https://leetcode.com/problems/reverse-string/)                                          | ✅        | Easy       | [Solution](./src/doublePointor/ReverseString.java)    |
-| 2022/03/14 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅        | Easy       | [Solution](./src/doublePointor/RemoveDuplicates.java) |
-| 2022/03/14 | [27. Remove Element](https://leetcode.com/problems/remove-element/)                                           | ✅        | Easy       | [Solution](./src/doublePointor/RemoveElement.java)    |
-| 2022/03/14 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                     | ✅        | Easy       | [Solution](./src/doublePointor/StrStrc.java)          |
-| 2022/03/14 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                                      | ✅        | Medium     | [Solution](./src/doublePointor/PartitionLabels.java)  |
+| Date       | Problem                                                                                                                   | Finished | Difficulty | Solution                                              |
+|------------|---------------------------------------------------------------------------------------------------------------------------|----------|------------|-------------------------------------------------------|
+| 2022/03/14 | [344. Reverse String](https://leetcode.com/problems/reverse-string/)                                                      | ✅        | Easy       | [Solution](./src/doublePointor/ReverseString.java)    |
+| 2022/03/14 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)             | ✅        | Easy       | [Solution](./src/doublePointor/RemoveDuplicates.java) |
+| 2022/03/14 | [27. Remove Element](https://leetcode.com/problems/remove-element/)                                                       | ✅        | Easy       | [Solution](./src/doublePointor/RemoveElement.java)    |
+| 2022/03/14 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                 | ✅        | Easy       | [Solution](./src/doublePointor/StrStrc.java)          |
+| 2022/03/14 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                                                  | ✅        | Medium     | [Solution](./src/doublePointor/PartitionLabels.java)  |
+| 2022/03/14 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Todo     | Hard       | [Solution](./src/doublePointor/FindSubstring.java)    |
