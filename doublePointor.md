@@ -7,3 +7,4 @@
 | 2022/03/14 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                                 | ✅        | Easy       | [Solution](./src/doublePointor/StrStrc.java)          |
 | 2022/03/14 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                                                  | ✅        | Medium     | [Solution](./src/doublePointor/PartitionLabels.java)  |
 | 2022/03/14 | [30. Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | Todo     | Hard       | [Solution](./src/doublePointor/FindSubstring.java)    |
+| 2022/03/14 | [75. Sort Colors](https://leetcode.com/problems/sort-colors/)                                                             | ✅        | Medium     | [Solution](./src/doublePointor/SortColors.java)       |
