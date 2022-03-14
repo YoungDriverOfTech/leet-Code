@@ -5,3 +5,4 @@
 | 2022/03/14 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | ✅        | Easy       | [Solution](./src/doublePointor/RemoveDuplicates.java) |
 | 2022/03/14 | [27. Remove Element](https://leetcode.com/problems/remove-element/)                                           | ✅        | Easy       | [Solution](./src/doublePointor/RemoveElement.java)    |
 | 2022/03/14 | [28. Implement strStr()](https://leetcode.com/problems/implement-strstr/)                                     | ✅        | Easy       | [Solution](./src/doublePointor/StrStrc.java)          |
+| 2022/03/14 | [763. Partition Labels](https://leetcode.com/problems/partition-labels/)                                      | ✅        | Medium     | [Solution](./src/doublePointor/PartitionLabels.java)  |
