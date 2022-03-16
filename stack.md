@@ -19,5 +19,4 @@
 | 2022/03/15 | [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)                                         | Todo     | Medium     | [Solution](./src/stack/ScoreOfParentheses.java)     |
 | 2022/03/15 | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                 | Todo     | Medium     | [Solution](./src/stack/SumSubarrayMins.java)        |
 | 2022/03/15 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/)                                                       | Todo     | Easy       | [Solution](./src/stack/CalPoints.java)              |
-| 2022/03/15 | [975. Odd Even Jump](https://leetcode.com/problems/odd-even-jump/)                                                       | Todo     | Hard       | [Solution](./src/stack/OddEvenJumps.java)           |
 | 2022/03/15 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                   | Todo     | Medium     | [Solution](./src/stack/NextGreaterElements.java)    |
