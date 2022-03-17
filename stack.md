@@ -8,7 +8,7 @@
 | 2022/03/15 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                         | ✅        | Medium     | [Solution](./src/stack/NestedIterator.java)         |
 | 2022/03/15 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                 | ✅        | Medium     | [Solution](./src/stack/EvalRPN.java)                |
 | 2022/03/15 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)                                                 | Todo     | Hard       | [Solution](./src/stack/Calculate.java)              |
-| 2022/03/15 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                        | Todo     | Hard       | [Solution](./src/stack/InorderTraversal.java)       |
+| 2022/03/15 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                        | Todo     | Easy       | [Solution](./src/stack/InorderTraversal.java)       |
 | 2022/03/15 | [232. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)                         | Todo     | Medium     | [Solution](./src/stack/MyQueue.java)                |
 | 2022/03/15 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/)                                                        | Todo     | Medium     | [Solution](./src/stack/SimplifyPath.java)           |
 | 2022/03/15 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                                     | Todo     | Easy       | [Solution](./src/stack/NextGreaterElement.java)     |
