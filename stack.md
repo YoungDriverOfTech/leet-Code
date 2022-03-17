@@ -13,5 +13,5 @@
 | 2022/03/15 | [71. Simplify Path](https://leetcode.com/problems/simplify-path/)                                                        | Todo     | Medium     | [Solution](./src/stack/SimplifyPath.java)           |
 | 2022/03/15 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                                     | ✅        | Easy       | [Solution](./src/stack/NextGreaterElement.java)     |
 | 2022/03/15 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | ✅        | Medium     | [Solution](./src/stack/ZigzagLevelOrder.java)       |
-| 2022/03/15 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                     | Todo     | Easy       | [Solution](./src/stack/PreorderTraversal.java)      |
+| 2022/03/15 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                     | ✅        | Easy       | [Solution](./src/stack/PreorderTraversal.java)      |
 | 2022/03/15 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                   | Todo     | Medium     | [Solution](./src/stack/NextGreaterElements.java)    |
