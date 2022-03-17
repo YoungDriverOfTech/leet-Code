@@ -8,34 +8,24 @@ public class EvalRPN {
         Stack<String> stack = new Stack<>();
 
         for (String token : tokens) {
-            switch (token) {
-                case "+" -> {
-                    int num1 = Integer.parseInt(stack.pop());
-                    int num2 = Integer.parseInt(stack.pop());
-                    stack.push(String.valueOf(num1 + num2));
-                    break;
-                }
-                case "-" -> {
-                    int num1 = Integer.parseInt(stack.pop());
-                    int num2 = Integer.parseInt(stack.pop());
-                    stack.push(String.valueOf(num2 - num1));    // 减法注意顺序
-
-                    break;
-                }
-                case "*" -> {
-                    int num1 = Integer.parseInt(stack.pop());
-                    int num2 = Integer.parseInt(stack.pop());
-                    stack.push(String.valueOf(num1 * num2));
-                    break;
-                }
-                case "/" -> {
-                    int num1 = Integer.parseInt(stack.pop());
-                    int num2 = Integer.parseInt(stack.pop());
-                    stack.push(String.valueOf(num2 / num1));    // 除法注意顺序
-
-                    break;
-                }
-                default -> stack.push(token);
+            if (token.equals("+")) {
+                int num1 = Integer.parseInt(stack.pop());
+                int num2 = Integer.parseInt(stack.pop());
+                stack.push(String.valueOf(num1 + num2));
+            } else if (token.equals("-")) {
+                int num1 = Integer.parseInt(stack.pop());
+                int num2 = Integer.parseInt(stack.pop());
+                stack.push(String.valueOf(num2 - num1));    // 减法注意顺序
+            } else if (token.equals("*")) {
+                int num1 = Integer.parseInt(stack.pop());
+                int num2 = Integer.parseInt(stack.pop());
+                stack.push(String.valueOf(num1 * num2));
+            } else if (token.equals("/")) {
+                int num1 = Integer.parseInt(stack.pop());
+                int num2 = Integer.parseInt(stack.pop());
+                stack.push(String.valueOf(num2 / num1));    // 除法注意顺序
+            } else {
+                stack.push(token);
             }
         }
         return Integer.parseInt(stack.pop());
