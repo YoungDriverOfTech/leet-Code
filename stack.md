@@ -4,8 +4,8 @@
 | 2022/03/15 | [155. Min Stack](https://leetcode.com/problems/min-stack/)                                                               | ✅        | Easy       | [Solution](./src/stack/MinStack.java)               |
 | 2022/03/15 | [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)                           | ✅        | Medium     | [Solution](./src/stack/BSTIterator.java)            |
 | 2022/03/15 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                                 | ✅        | Medium     | [Solution](./src/stack/RemoveDuplicateLetters.java) |
-| 2022/03/15 | [394. Decode String](https://leetcode.com/problems/decode-string/)                                                       | Todo     | Medium     | [Solution](./src/stack/DecodeString.java)           |
-| 2022/03/15 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                         | Todo     | Medium     | [Solution](./src/stack/NestedIterator.java)         |
+| 2022/03/15 | [394. Decode String](https://leetcode.com/problems/decode-string/)                                                       | ✅        | Medium     | [Solution](./src/stack/DecodeString.java)           |
+| 2022/03/15 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                         | ✅        | Medium     | [Solution](./src/stack/NestedIterator.java)         |
 | 2022/03/15 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                 | Todo     | Medium     | [Solution](./src/stack/EvalRPN.java)                |
 | 2022/03/15 | [224. Basic Calculator](https://leetcode.com/problems/basic-calculator/)                                                 | Todo     | Hard       | [Solution](./src/stack/Calculate.java)              |
 | 2022/03/15 | [94. Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                        | Todo     | Hard       | [Solution](./src/stack/InorderTraversal.java)       |
@@ -14,9 +14,4 @@
 | 2022/03/15 | [496. Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/)                                     | Todo     | Easy       | [Solution](./src/stack/NextGreaterElement.java)     |
 | 2022/03/15 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | Todo     | Medium     | [Solution](./src/stack/ZigzagLevelOrder.java)       |
 | 2022/03/15 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                     | Todo     | Easy       | [Solution](./src/stack/PreorderTraversal.java)      |
-| 2022/03/15 | [1130. Minimum Cost Tree From Leaf Values](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/)            | Todo     | Medium     | [Solution](./src/stack/MctFromLeafValues.java)      |
-| 2022/03/15 | [636. Exclusive Time of Functions](https://leetcode.com/problems/exclusive-time-of-functions/)                           | Todo     | Medium     | [Solution](./src/stack/ExclusiveTime.java)          |
-| 2022/03/15 | [856. Score of Parentheses](https://leetcode.com/problems/score-of-parentheses/)                                         | Todo     | Medium     | [Solution](./src/stack/ScoreOfParentheses.java)     |
-| 2022/03/15 | [907. Sum of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/)                                 | Todo     | Medium     | [Solution](./src/stack/SumSubarrayMins.java)        |
-| 2022/03/15 | [682. Baseball Game](https://leetcode.com/problems/baseball-game/)                                                       | Todo     | Easy       | [Solution](./src/stack/CalPoints.java)              |
 | 2022/03/15 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                   | Todo     | Medium     | [Solution](./src/stack/NextGreaterElements.java)    |
