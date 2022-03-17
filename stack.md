@@ -15,3 +15,4 @@
 | 2022/03/15 | [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | ✅        | Medium     | [Solution](./src/stack/ZigzagLevelOrder.java)       |
 | 2022/03/15 | [144. Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/)                     | ✅        | Easy       | [Solution](./src/stack/PreorderTraversal.java)      |
 | 2022/03/15 | [503. Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/)                                   | ✅        | Medium     | [Solution](./src/stack/NextGreaterElements.java)    |
+| 2022/03/15 | [225. Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/)                         | ✅        | Easy       | [Solution](./src/stack/MyStack.java)                |
