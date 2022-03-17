@@ -3,7 +3,7 @@
 |------------|--------------------------------------------------------------------------------------------------------------------------|----------|------------|-----------------------------------------------------|
 | 2022/03/15 | [155. Min Stack](https://leetcode.com/problems/min-stack/)                                                               | ✅        | Easy       | [Solution](./src/stack/MinStack.java)               |
 | 2022/03/15 | [173. Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/)                           | ✅        | Medium     | [Solution](./src/stack/BSTIterator.java)            |
-| 2022/03/15 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                                 | Todo     | Medium     | [Solution](./src/stack/RemoveDuplicateLetters.java) |
+| 2022/03/15 | [316. Remove Duplicate Letters](https://leetcode.com/problems/remove-duplicate-letters/)                                 | ✅        | Medium     | [Solution](./src/stack/RemoveDuplicateLetters.java) |
 | 2022/03/15 | [394. Decode String](https://leetcode.com/problems/decode-string/)                                                       | Todo     | Medium     | [Solution](./src/stack/DecodeString.java)           |
 | 2022/03/15 | [341. Flatten Nested List Iterator](https://leetcode.com/problems/flatten-nested-list-iterator/)                         | Todo     | Medium     | [Solution](./src/stack/NestedIterator.java)         |
 | 2022/03/15 | [150. Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                 | Todo     | Medium     | [Solution](./src/stack/EvalRPN.java)                |
