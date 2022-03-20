@@ -10,3 +10,4 @@
 | 2022/03/20 | [100. Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                 | ✅        | Easy       | [Solution](./src/tree/IsSameTree.java)       |
 | 2022/03/20 | [105. Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | ✅        | Medium     | [Solution](./src/tree/BuildTree.java)        |
 | 2022/03/20 | [95. Unique Binary Search Trees II](https://leetcode.com/problems/unique-binary-search-trees-ii/)                                                          | Todo     | Medium     | [Solution](./src/tree/GenerateTrees.java)    |
+| 2022/03/20 | [124. Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                                           | Todo     | Hard       | [Solution](./src/tree/MaxPathSum.java)       |
