@@ -7,3 +7,4 @@
 | 2022/03/20 | [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/)                                         | ✅        | Easy       | [Solution](./src/tree/MergeTrees.java)       |
 | 2022/03/20 | [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | ✅        | Easy       | [Solution](./src/tree/SortedArrayToBST.java) |
 | 2022/03/20 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)           | ✅        | Hard       | [Solution](./src/tree/Codec.java)            |
+| 2022/03/20 | [100. Same Tree](https://leetcode.com/problems/same-tree/)                                                                   | ✅        | Easy       | [Solution](./src/tree/IsSameTree.java)       |
