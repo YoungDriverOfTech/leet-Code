@@ -21,3 +21,4 @@
 | 2022/03/21 | [235. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                       | ✅        | Easy       | [Solution](./src/tree/LowestCommonAncestor1.java)      |
 | 2022/03/21 | [114. Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                               | ✅        | Medium     | [Solution](./src/tree/Flatten.java)                    |
 | 2022/03/21 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                                 | ✅        | Medium     | [Solution](./src/tree/LevelOrder.java)                 |
+    
