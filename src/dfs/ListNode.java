@@ -1,8 +1,8 @@
-package linkedlist;
+package dfs;
 
 public class ListNode {
-    public int val;
-    public ListNode next;
+    int val;
+    ListNode next;
 
     ListNode() {
     }
