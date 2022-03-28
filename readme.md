@@ -12,16 +12,16 @@
 [17道](./binarySearch.md)
 
 ## 2.4 哈希表
-[20道](./hash.md)
+[17道](./hash.md)
 
 ## 2.5 链表
 [20道](./linkedList.md)
 
 ## 2.6 双指针
-[20道](./doublePointor.md)
+[9道](./doublePointor.md)
 
 ## 2.7 栈
-[20道](./stack.md)
+[15道](./stack.md)
 
 ## 2.8 树
 [20道](./tree.md)
