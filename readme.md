@@ -33,7 +33,7 @@
 [6道](./bfs.md)
 
 ## 2.11 回溯法
-[20道](./backTracking.md)
+[6道](./backTracking.md)
 
 ## 2.12 排序
 [20道](./order.md)
