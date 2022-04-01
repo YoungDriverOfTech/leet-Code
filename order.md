@@ -6,3 +6,4 @@
 | 2022/03/31 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)                 | Todo     | Medium     | [Solution](./src/order/WiggleSort.java)                    |
 | 2022/03/31 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                | ✅        | Medium     | [Solution](./src/order/Insert.java)                        |
 | 2022/03/31 | [274. H-Index](https://leetcode.com/problems/h-index/)                               | ✅        | Medium     | [Solution](./src/order/HIndex.java)                        |
+| 2022/03/31 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)      | ✅        | Easy       | [Solution](./src/order/RelativeSortArray.java)             |
