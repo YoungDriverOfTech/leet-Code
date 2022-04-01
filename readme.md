@@ -36,4 +36,4 @@
 [6道](./backTracking.md)
 
 ## 2.12 排序
-[20道](./order.md)
+[6道](./order.md)
