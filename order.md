@@ -7,3 +7,4 @@
 | 2022/03/31 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/)                | ✅        | Medium     | [Solution](./src/order/Insert.java)                        |
 | 2022/03/31 | [274. H-Index](https://leetcode.com/problems/h-index/)                               | ✅        | Medium     | [Solution](./src/order/HIndex.java)                        |
 | 2022/03/31 | [1122. Relative Sort Array](https://leetcode.com/problems/relative-sort-array/)      | ✅        | Easy       | [Solution](./src/order/RelativeSortArray.java)             |
+| 2022/04/01 | [493. Reverse Pairs](https://leetcode.com/problems/reverse-pairs/)                   | ✅        | Hard       | [Solution](./src/order/ReversePairs.java)                  |
