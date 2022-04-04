@@ -7,3 +7,4 @@
 | 2022/04/03 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)         | ✅        | Easy       | [Solution](./src/first200/LongestCommonPrefix.java)     |
 | 2022/04/03 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | ✅        | Hard       | [Solution](./src/first200/LongestValidParentheses.java) |
 | 2022/04/03 | [38. Count and Say](https://leetcode.com/problems/count-and-say/)                         | ✅        | Medium     | [Solution](./src/first200/CountAndSay.java)             |
+| 2022/04/03 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)               | ✅        | Medium     | [Solution](./src/first200/CombinationSum2.java)         |
