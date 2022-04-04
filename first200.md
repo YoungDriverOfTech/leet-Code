@@ -6,3 +6,4 @@
 | 2022/04/03 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)                   | ✅        | Easy       | [Solution](./src/first200/RomanToInt.java)              |
 | 2022/04/03 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)         | ✅        | Easy       | [Solution](./src/first200/LongestCommonPrefix.java)     |
 | 2022/04/03 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | ✅        | Hard       | [Solution](./src/first200/LongestValidParentheses.java) |
+| 2022/04/03 | [38. Count and Say](https://leetcode.com/problems/count-and-say/)                         | ✅        | Medium     | [Solution](./src/first200/CountAndSay.java)             |
