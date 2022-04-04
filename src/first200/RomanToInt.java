@@ -4,7 +4,36 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RomanToInt {
+
+    Map<Character, Integer> symbolValues = new HashMap<Character, Integer>() {{
+        put('I', 1);
+        put('V', 5);
+        put('X', 10);
+        put('L', 50);
+        put('C', 100);
+        put('D', 500);
+        put('M', 1000);
+    }};
+
     public int romanToInt(String s) {
+        int ans = 0;
+        int n = s.length();
+        for (int i = 0; i < n; ++i) {
+            int value = symbolValues.get(s.charAt(i));
+
+            // 应该字符串总是大数在前，小数在后，那么当小数在前面的时候，说明出现了特例
+            // 比如IV，应该是4，那么就判断后面的I和V谁大，如果后面大，说明这个I应该去上负值 -1， 然后下一轮循环的时候，加上X10， 那么总体
+            // 就是加上了9
+            if (i < n - 1 && value < symbolValues.get(s.charAt(i + 1))) {
+                ans -= value;
+            } else {
+                ans += value;
+            }
+        }
+        return ans;
+    }
+
+    public int romanToInt_1(String s) {
         Map<String, Integer> map = new HashMap<>();
         map.put("M", 1000);
         map.put("CM", 900); // special
