@@ -13,3 +13,4 @@
 | 2022/04/05 | [44. Wildcard Matching](https://leetcode.com/problems/wildcard-matching/)                 | ✅        | Hard       | [Solution](./src/first200/IsMatch.java)                 |
 | 2022/04/05 | [45. Jump Game II](https://leetcode.com/problems/jump-game-ii/)                           | ✅        | Medium     | [Solution](./src/first200/Jump.java)                    |
 | 2022/04/05 | [47. Permutations II](https://leetcode.com/problems/permutations-ii/)                     | ✅        | Medium     | [Solution](./src/first200/PermuteUnique.java)           |
+| 2022/04/05 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                         | ✅        | Medium     | [Solution](./src/first200/SpiralOrder.java)             |
