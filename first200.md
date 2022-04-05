@@ -8,5 +8,5 @@
 | 2022/04/03 | [32. Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | ✅        | Hard       | [Solution](./src/first200/LongestValidParentheses.java) |
 | 2022/04/03 | [38. Count and Say](https://leetcode.com/problems/count-and-say/)                         | ✅        | Medium     | [Solution](./src/first200/CountAndSay.java)             |
 | 2022/04/03 | [40. Combination Sum II](https://leetcode.com/problems/combination-sum-ii/)               | ✅        | Medium     | [Solution](./src/first200/CombinationSum2.java)         |
-| 2022/04/03 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)       | ✅        | Hard       | [Solution](./src/first200/FirstMissingPositive.java)    |
-
+| 2022/04/05 | [41. First Missing Positive](https://leetcode.com/problems/first-missing-positive/)       | ✅        | Hard       | [Solution](./src/first200/FirstMissingPositive.java)    |
+| 2022/04/05 | [43. Multiply Strings](https://leetcode.com/problems/multiply-strings/)                   | ✅        | Medium     | [Solution](./src/first200/Multiply.java)                |
