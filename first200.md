@@ -15,3 +15,4 @@
 | 2022/04/05 | [47. Permutations II](https://leetcode.com/problems/permutations-ii/)                     | ✅        | Medium     | [Solution](./src/first200/PermuteUnique.java)           |
 | 2022/04/05 | [54. Spiral Matrix](https://leetcode.com/problems/spiral-matrix/)                         | ✅        | Medium     | [Solution](./src/first200/SpiralOrder.java)             |
 | 2022/04/05 | [55. Jump Game](https://leetcode.com/problems/jump-game/)                                 | ✅        | Medium     | [Solution](./src/first200/CanJump.java)                 |
+| 2022/04/05 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)                           | ✅        | Medium     | [Solution](./src/first200/UniquePaths.java)             |
