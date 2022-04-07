@@ -17,3 +17,4 @@
 | 2022/04/05 | [55. Jump Game](https://leetcode.com/problems/jump-game/)                                 | ✅        | Medium     | [Solution](./src/first200/CanJump.java)                 |
 | 2022/04/05 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)                           | ✅        | Medium     | [Solution](./src/first200/UniquePaths.java)             |
 | 2022/04/05 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                     | ✅        | Easy       | [Solution](./src/first200/ClimbStairs.java)             |
+| 2022/04/05 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                 | ✅        | Medium     | [Solution](./src/first200/SetZeroes.java)               |
