@@ -18,4 +18,5 @@
 | 2022/04/05 | [62. Unique Paths](https://leetcode.com/problems/unique-paths/)                               | ✅        | Medium     | [Solution](./src/first200/UniquePaths.java)             |
 | 2022/04/05 | [70. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)                         | ✅        | Easy       | [Solution](./src/first200/ClimbStairs.java)             |
 | 2022/04/05 | [73. Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/)                     | ✅        | Medium     | [Solution](./src/first200/SetZeroes.java)               |
-| 2022/04/05 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | ✅        | Medium     | [Solution](./src/first200/IsValidBST.java)              |
+| 2022/04/08 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | ✅        | Medium     | [Solution](./src/first200/IsValidBST.java)              |
+| 2022/04/08 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                     | ✅        | Easy       | [Solution](./src/first200/Generate.java)                |
