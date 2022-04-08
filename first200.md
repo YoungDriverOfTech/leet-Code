@@ -21,3 +21,4 @@
 | 2022/04/08 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)    | ✅        | Medium     | [Solution](./src/first200/IsValidBST.java)              |
 | 2022/04/08 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                        | ✅        | Easy       | [Solution](./src/first200/Generate.java)                |
 | 2022/04/08 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅        | Medium     | [Solution](./src/first200/LongestConsecutive.java)      |
+| 2022/04/08 | [134. Gas Station](https://leetcode.com/problems/gas-station/)                                   | ✅        | Medium     | [Solution](./src/first200/CanCompleteCircuit.java)      |
