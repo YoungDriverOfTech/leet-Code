@@ -22,3 +22,4 @@
 | 2022/04/08 | [118. Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/)                        | ✅        | Easy       | [Solution](./src/first200/Generate.java)                |
 | 2022/04/08 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅        | Medium     | [Solution](./src/first200/LongestConsecutive.java)      |
 | 2022/04/08 | [134. Gas Station](https://leetcode.com/problems/gas-station/)                                   | ✅        | Medium     | [Solution](./src/first200/CanCompleteCircuit.java)      |
+| 2022/04/08 | [139. Word Break](https://leetcode.com/problems/word-break/)                                     | ✅        | Medium     | [Solution](./src/first200/WordBreak.java)               |
