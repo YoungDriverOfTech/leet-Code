@@ -23,5 +23,5 @@
 | 2022/04/08 | [128. Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | ✅        | Medium     | [Solution](./src/first200/LongestConsecutive.java)      |
 | 2022/04/08 | [134. Gas Station](https://leetcode.com/problems/gas-station/)                                   | ✅        | Medium     | [Solution](./src/first200/CanCompleteCircuit.java)      |
 | 2022/04/08 | [139. Word Break](https://leetcode.com/problems/word-break/)                                     | ✅        | Medium     | [Solution](./src/first200/WordBreak.java)               |
-| 2022/04/08 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/)                               | Todo     | Hard       | [Solution](./src/first200/wordBreak2.java)              |
-| 2022/04/08 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/)                               | Todo     | Medium       | [Solution](./src/first200/LRUCache.java)              |
+| 2022/04/08 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/)                               | ✅        | Hard       | [Solution](./src/first200/wordBreak2.java)              |
+| 2022/04/08 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/)                                       | Todo     | Medium     | [Solution](./src/first200/LRUCache.java)                |
