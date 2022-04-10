@@ -26,3 +26,4 @@
 | 2022/04/10 | [140. Word Break II](https://leetcode.com/problems/word-break-ii/)                               | ✅        | Hard       | [Solution](./src/first200/wordBreak2.java)              |
 | 2022/04/10 | [146. LRU Cache](https://leetcode.com/problems/lru-cache/)                                       | ✅        | Medium     | [Solution](./src/first200/LRUCache.java)                |
 | 2022/04/10 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)         | ✅        | Medium     | [Solution](./src/first200/MaxProduct.java)              |
+| 2022/04/10 | [163. Missing Ranges](./src/first200/FindMissingRanges.java)                                     | ✅        | Easy       | [Solution](./src/first200/FindMissingRanges.java)       |
