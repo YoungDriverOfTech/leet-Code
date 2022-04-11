@@ -28,3 +28,4 @@
 | 2022/04/10 | [152. Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)           | ✅        | Medium     | [Solution](./src/first200/MaxProduct.java)              |
 | 2022/04/10 | [163. Missing Ranges](./src/first200/FindMissingRanges.java)                                       | ✅        | Easy       | [Solution](./src/first200/FindMissingRanges.java)       |
 | 2022/04/10 | [166. Fraction to Recurring Decimal](https://leetcode.com/problems/fraction-to-recurring-decimal/) | ✅        | Medium     | [Solution](./src/first200/FractionToDecimal.java)       |
+| 2022/04/10 | [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)         | ✅        | Easy       | [Solution](./src/first200/TitleToNumber.java)           |
