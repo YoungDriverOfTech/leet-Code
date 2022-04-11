@@ -31,3 +31,4 @@
 | 2022/04/11 | [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/)         | ✅        | Easy       | [Solution](./src/first200/TitleToNumber.java)           |
 | 2022/04/11 | [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)         | ✅        | Medium     | [Solution](./src/first200/TrailingZeroes.java)          |
 | 2022/04/11 | [189. Rotate Array](https://leetcode.com/problems/rotate-array/)                                   | ✅        | Medium     | [Solution](./src/first200/Rotate.java)                  |
+| 2022/04/11 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                   | ✅        | Easy       | [Solution](./src/first200/ReverseBits.java)             |
