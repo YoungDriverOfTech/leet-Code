@@ -32,3 +32,4 @@
 | 2022/04/11 | [172. Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/)         | ✅        | Medium     | [Solution](./src/first200/TrailingZeroes.java)          |
 | 2022/04/11 | [189. Rotate Array](https://leetcode.com/problems/rotate-array/)                                   | ✅        | Medium     | [Solution](./src/first200/Rotate.java)                  |
 | 2022/04/11 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                   | ✅        | Easy       | [Solution](./src/first200/ReverseBits.java)             |
+| 2022/04/11 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                           | ✅        | Easy       | [Solution](./src/first200/HammingWeight.java)           |
