@@ -34,3 +34,4 @@
 | 2022/04/11 | [190. Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                   | ✅        | Easy       | [Solution](./src/first200/ReverseBits.java)             |
 | 2022/04/11 | [191. Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                           | ✅        | Easy       | [Solution](./src/first200/HammingWeight.java)           |
 | 2022/04/11 | [198. House Robber](https://leetcode.com/problems/house-robber/)                                   | ✅        | Medium     | [Solution](./src/first200/Rob.java)                     |
+| 2022/04/11 | [208. Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/)     | ✅        | Medium     | [Solution](./src/first200/Trie.java)                    |
