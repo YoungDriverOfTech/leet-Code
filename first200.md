@@ -39,3 +39,4 @@
 | 2022/04/12 | [215. Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | ✅        | Medium     | [Solution](./src/first200/FindKthLargest.java)          |
 | 2022/04/13 | [218. The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/)                         | Todo     | Hard       | [Solution](./src/first200/GetSkyline.java)              |
 | 2022/04/13 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)     | ✅        | Medium     | [Solution](./src/first200/KthSmallest.java)             |
+| 2022/04/13 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                   | ✅        | Hard       | [Solution](./src/first200/MaxSlidingWindow.java)        |
