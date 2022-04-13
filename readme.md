@@ -1,6 +1,9 @@
 # 一. 剑指Offer
 [剑指 Offer](./offer.md)
 
+[快速排序模板](./src/sortTemplate/QuickSort.java)  
+[归并排序模板](./src/sortTemplate/Mergesort.java)
+
 # 二. 分类
 ## 2.1 字符串
 [20道](./string.md)
