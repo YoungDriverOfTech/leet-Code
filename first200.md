@@ -41,3 +41,4 @@
 | 2022/04/13 | [230. Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)     | ✅        | Medium     | [Solution](./src/first200/KthSmallest.java)             |
 | 2022/04/13 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                   | ✅        | Hard       | [Solution](./src/first200/MaxSlidingWindow.java)        |
 | 2022/04/13 | [268. Missing Number](https://leetcode.com/problems/missing-number/)                                   | ✅        | Easy       | [Solution](./src/first200/MissingNumber.java)           |
+| 2022/04/13 | [289. Game of Life](https://leetcode.com/problems/game-of-life/)                                       | ✅        | Medium     | [Solution](./src/first200/GameOfLife.java)              |
