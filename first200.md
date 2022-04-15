@@ -42,5 +42,6 @@
 | 2022/04/13 | [239. Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)                   | ✅        | Hard       | [Solution](./src/first200/MaxSlidingWindow.java)        |
 | 2022/04/13 | [268. Missing Number](https://leetcode.com/problems/missing-number/)                                   | ✅        | Easy       | [Solution](./src/first200/MissingNumber.java)           |
 | 2022/04/14 | [289. Game of Life](https://leetcode.com/problems/game-of-life/)                                       | ✅        | Medium     | [Solution](./src/first200/GameOfLife.java)              |
-| 2022/04/14 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)       | ✅        | Hard       | [Solution](./src/first200/MedianFinder.java)            |
-| 2022/04/14 | [322. Coin Change](https://leetcode.com/problems/coin-change/)                                         | ✅        | Medium     | [Solution](./src/first200/CoinChange.java)              |
+| 2022/04/15 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)       | ✅        | Hard       | [Solution](./src/first200/MedianFinder.java)            |
+| 2022/04/15 | [322. Coin Change](https://leetcode.com/problems/coin-change/)                                         | ✅        | Medium     | [Solution](./src/first200/CoinChange.java)              |
+| 2022/04/15 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)                                   | ✅        | Medium     | [Solution](./src/first200/WiggleSort.java)              |
