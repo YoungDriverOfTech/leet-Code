@@ -50,3 +50,4 @@
 | 2022/04/15 | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)           | ✅        | Medium     | [Solution](./src/first200/IncreasingTriplet.java)       |
 | 2022/04/15 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)                                 | ✅        | Medium     | [Solution](./src/first200/GetSum.java)                  |
 | 2022/04/15 | [380. Insert Delete GetRandom O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/)                 | ✅        | Medium     | [Solution](./src/first200/RandomizedSet.java)           |
+| 2022/04/15 | [384. Shuffle an Array](https://leetcode.com/problems/shuffle-an-array/)                                       | ✅        | Medium     | [Solution](./src/first200/Solution.java)                |
