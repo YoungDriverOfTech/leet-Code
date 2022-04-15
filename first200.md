@@ -45,3 +45,4 @@
 | 2022/04/15 | [295. Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)       | ✅        | Hard       | [Solution](./src/first200/MedianFinder.java)            |
 | 2022/04/15 | [322. Coin Change](https://leetcode.com/problems/coin-change/)                                         | ✅        | Medium     | [Solution](./src/first200/CoinChange.java)              |
 | 2022/04/15 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)                                   | ✅        | Medium     | [Solution](./src/first200/WiggleSort.java)              |
+| 2022/04/15 | [326. Power of Three](https://leetcode.com/problems/power-of-three/)                                   | ✅        | Easy       | [Solution](./src/first200/IsPowerOfThree.java)          |
