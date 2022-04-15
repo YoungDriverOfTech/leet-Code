@@ -48,3 +48,4 @@
 | 2022/04/15 | [326. Power of Three](https://leetcode.com/problems/power-of-three/)                                           | ✅        | Easy       | [Solution](./src/first200/IsPowerOfThree.java)          |
 | 2022/04/15 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | ✅        | Hard       | [Solution](./src/first200/LongestIncreasingPath.java)   |
 | 2022/04/15 | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)           | ✅        | Medium     | [Solution](./src/first200/IncreasingTriplet.java)       |
+| 2022/04/15 | [371. Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/)                                 | ✅        | Medium     | [Solution](./src/first200/GetSum.java)                  |
