@@ -47,3 +47,4 @@
 | 2022/04/15 | [324. Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/)                                           | ✅        | Medium     | [Solution](./src/first200/WiggleSort.java)              |
 | 2022/04/15 | [326. Power of Three](https://leetcode.com/problems/power-of-three/)                                           | ✅        | Easy       | [Solution](./src/first200/IsPowerOfThree.java)          |
 | 2022/04/15 | [329. Longest Increasing Path in a Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | ✅        | Hard       | [Solution](./src/first200/LongestIncreasingPath.java)   |
+| 2022/04/15 | [334. Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/)           | ✅        | Medium     | [Solution](./src/first200/IncreasingTriplet.java)       |
