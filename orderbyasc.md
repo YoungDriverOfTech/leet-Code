@@ -9,3 +9,5 @@
 | 2022/04/25 | [61. Rotate List](https://leetcode.com/problems/rotate-list/)                   | ✅        | Medium     | [Solution](./src/orderbyasc/RotateRight.java)              |
 | 2022/04/25 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)           | ✅        | Medium     | [Solution](./src/orderbyasc/UniquePathsWithObstacles.java) |
 | 2022/04/25 | [65. Valid Number](https://leetcode.com/problems/valid-number/)                 | ✅        | Hard       | [Solution](./src/orderbyasc/IsNumber.java)                 |
+| 2022/04/25 | [68. Text Justification](https://leetcode.com/problems/text-justification/)     | TODO     | Hard       | [Solution](./src/orderbyasc/FullJustify.java)              |
+| 2022/04/25 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)     | ✅        | Medium     | [Solution](./src/orderbyasc/SearchMatrix.java)             |
