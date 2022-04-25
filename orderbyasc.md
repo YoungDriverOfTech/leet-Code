@@ -1,13 +1,14 @@
 # 剑指Offer
-| Date       | Problem                                                                         | Finished | Difficulty | Solution                                                   |
-|------------|---------------------------------------------------------------------------------|----------|------------|------------------------------------------------------------|
-| 2022/04/25 | [51. N-Queens](https://leetcode.com/problems/n-queens/)                         | ✅        | Hard       | [Solution](./src/orderbyasc/SolveNQueens.java)             |
-| 2022/04/25 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                   | ✅        | Hard       | [Solution](./src/orderbyasc/TotalNQueens.java)             |
-| 2022/04/25 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)   | ✅        | Easy       | [Solution](./src/orderbyasc/LengthOfLastWord.java)         |
-| 2022/04/25 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)         | ✅        | Medium     | [Solution](./src/orderbyasc/GenerateMatrix.java)           |
-| 2022/04/25 | [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | ✅        | Hard       | [Solution](./src/orderbyasc/GetPermutation.java)           |
-| 2022/04/25 | [61. Rotate List](https://leetcode.com/problems/rotate-list/)                   | ✅        | Medium     | [Solution](./src/orderbyasc/RotateRight.java)              |
-| 2022/04/25 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)           | ✅        | Medium     | [Solution](./src/orderbyasc/UniquePathsWithObstacles.java) |
-| 2022/04/25 | [65. Valid Number](https://leetcode.com/problems/valid-number/)                 | ✅        | Hard       | [Solution](./src/orderbyasc/IsNumber.java)                 |
-| 2022/04/25 | [68. Text Justification](https://leetcode.com/problems/text-justification/)     | TODO     | Hard       | [Solution](./src/orderbyasc/FullJustify.java)              |
-| 2022/04/25 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)     | ✅        | Medium     | [Solution](./src/orderbyasc/SearchMatrix.java)             |
+| Date       | Problem                                                                                                             | Finished | Difficulty | Solution                                                   |
+|------------|---------------------------------------------------------------------------------------------------------------------|----------|------------|------------------------------------------------------------|
+| 2022/04/25 | [51. N-Queens](https://leetcode.com/problems/n-queens/)                                                             | ✅        | Hard       | [Solution](./src/orderbyasc/SolveNQueens.java)             |
+| 2022/04/25 | [52. N-Queens II](https://leetcode.com/problems/n-queens-ii/)                                                       | ✅        | Hard       | [Solution](./src/orderbyasc/TotalNQueens.java)             |
+| 2022/04/25 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)                                       | ✅        | Easy       | [Solution](./src/orderbyasc/LengthOfLastWord.java)         |
+| 2022/04/25 | [59. Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/)                                             | ✅        | Medium     | [Solution](./src/orderbyasc/GenerateMatrix.java)           |
+| 2022/04/25 | [60. Permutation Sequence](https://leetcode.com/problems/permutation-sequence/)                                     | ✅        | Hard       | [Solution](./src/orderbyasc/GetPermutation.java)           |
+| 2022/04/25 | [61. Rotate List](https://leetcode.com/problems/rotate-list/)                                                       | ✅        | Medium     | [Solution](./src/orderbyasc/RotateRight.java)              |
+| 2022/04/25 | [63. Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)                                               | ✅        | Medium     | [Solution](./src/orderbyasc/UniquePathsWithObstacles.java) |
+| 2022/04/25 | [65. Valid Number](https://leetcode.com/problems/valid-number/)                                                     | ✅        | Hard       | [Solution](./src/orderbyasc/IsNumber.java)                 |
+| 2022/04/25 | [68. Text Justification](https://leetcode.com/problems/text-justification/)                                         | TODO     | Hard       | [Solution](./src/orderbyasc/FullJustify.java)              |
+| 2022/04/25 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                         | ✅        | Medium     | [Solution](./src/orderbyasc/SearchMatrix.java)             |
+| 2022/04/25 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | ✅        | Medium     | [Solution](./src/orderbyasc/RemoveDuplicates.java)         |
