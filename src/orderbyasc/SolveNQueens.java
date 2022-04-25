@@ -9,7 +9,7 @@ public class SolveNQueens {
     // 其实题目可以改成，在每一行放置一个皇后，让这些皇后不能相互攻击。（因为每一行最多只有一个皇后）
     private List<List<String>> res;
 
-    public List<List<String>> solveNQueens(int n) {
+    public int totalNQueens(int n) {
         res = new ArrayList<>();
 
         // 先做成一个棋盘，里面全部用'.'来填充
@@ -21,7 +21,7 @@ public class SolveNQueens {
         // 用回溯法把结果添加进res
         backTrack(board, 0);
 
-        return res;
+        return res.size();
     }
 
     private void backTrack(char[][] board, int row) {
