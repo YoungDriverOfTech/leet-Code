@@ -15,3 +15,5 @@
 | 2022/04/26 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)           | ✅        | Medium     | [Solution](./src/orderbyasc/Search.java)                   |
 | 2022/04/26 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)   | ✅        | Medium     | [Solution](./src/orderbyasc/DeleteDuplicates.java)         |
 | 2022/04/26 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)         | ✅        | Easy       | [Solution](./src/orderbyasc/DeleteDuplicates2.java)        |
+| 2022/04/26 | [87. Scramble String](https://leetcode.com/problems/scramble-string/)                                               | Todo     | Hard       | [Solution](./src/orderbyasc/IsScramble.java)               |
+| 2022/04/26 | [89. Gray Code](https://leetcode.com/problems/gray-code/)                                                           | ✅        | Medium     | [Solution](./src/orderbyasc/GrayCode.java)                 |
