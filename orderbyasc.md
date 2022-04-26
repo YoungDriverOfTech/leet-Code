@@ -13,4 +13,5 @@
 | 2022/04/25 | [74. Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)                                         | ✅        | Medium     | [Solution](./src/orderbyasc/SearchMatrix.java)             |
 | 2022/04/25 | [80. Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | ✅        | Medium     | [Solution](./src/orderbyasc/RemoveDuplicates.java)         |
 | 2022/04/26 | [81. Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)           | ✅        | Medium     | [Solution](./src/orderbyasc/Search.java)                   |
-| 2022/04/26 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)           | ✅        | Medium     | [Solution](./src/orderbyasc/DeleteDuplicates.java)                   |
+| 2022/04/26 | [82. Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)   | ✅        | Medium     | [Solution](./src/orderbyasc/DeleteDuplicates.java)         |
+| 2022/04/26 | [83. Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)         | ✅        | Easy       | [Solution](./src/orderbyasc/DeleteDuplicates2.java)        |
