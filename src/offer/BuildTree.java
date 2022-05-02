@@ -1,6 +1,8 @@
 package offer;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 1. 两种遍历方式，先用前序遍历的第一个元素（根元素），到中序遍历里面求根元素的索引（即1）
@@ -21,7 +23,10 @@ import java.util.Arrays;
  *
  * */
 public class BuildTree {
-    public TreeNode buildTree(int[] preorder, int[] inorder) {
+    // 方法1
+
+
+    public TreeNode buildTree_1(int[] preorder, int[] inorder) {
 
         if (preorder == null || preorder.length == 0) {
             return null;
@@ -55,5 +60,40 @@ public class BuildTree {
             }
         }
         return -1;
+    }
+
+    // 方法2
+    private Map<Integer, Integer> map = new HashMap();
+    private int[] preorder;
+    private int[] inorder;
+
+    public TreeNode buildTree(int[] preorder, int[] inorder) {
+        this.preorder = preorder;
+        this.inorder = inorder;
+        for (int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+
+        return buildTree(0, preorder.length - 1, 0, inorder.length - 1);
+
+    }
+
+    private TreeNode buildTree(int preStart, int preEnd, int inStart, int inEnd) {
+        if (preStart > preEnd || inStart > inEnd) {
+            return null;
+        }
+
+        // 因为先序遍历的首位就是跟节点，所以取出跟节点
+        int rootVal = preorder[preStart];
+        TreeNode root = new TreeNode(rootVal);
+
+        // 构建左右节点
+
+        // 取出跟节点在中序遍历中的索引位置
+        int rootIndex = map.get(rootVal);
+        root.left = buildTree(preStart + 1, preStart + rootIndex - inStart, inStart, rootIndex - 1);
+        root.right = buildTree(preStart + rootIndex - inStart + 1, preEnd, rootIndex + 1, inEnd);
+
+        return root;
     }
 }
