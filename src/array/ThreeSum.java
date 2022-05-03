@@ -15,6 +15,7 @@ public class ThreeSum {
         Arrays.sort(nums);
         int len = nums.length - 1;
         for (int i = 0; i < nums.length; i++) {
+            // 因为已经经过排序，所以一旦某个元素大于0了，其后面的元素都会大于0，不满足3数之和想加等于0的条件
             if (nums[i] > 0) {
                 break;
             }
