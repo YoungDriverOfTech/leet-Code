@@ -4,6 +4,9 @@ import java.util.Arrays;
 
 public class PlusOne {
     // https://leetcode-cn.com/problems/plus-one/solution/jia-yi-by-leetcode-solution-2hor/
+
+    // 我们从后往前数，找到第一个不等于9的数字，比如336899， 此时找到了8
+    // 然后把9加上1，从8开始后面的数字全部变成0
     public int[] plusOne(int[] digits) {
         for (int i = digits.length - 1; i >= 0; i--) {
             if (digits[i] != 9) {
