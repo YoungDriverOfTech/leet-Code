@@ -31,6 +31,7 @@ public class LongestPalindrome {
         return result;
     }
 
+    // time/space complexity: O(N * N)
     public String longestPalindrome_1(String s) {
         int len = s.length();
         if (len < 2) {
