@@ -50,6 +50,6 @@ public class Calculate {
     }
 
     public static void main(String[] args) {
-        new Calculate().calculate("3+2*2");
+        new Calculate().calculate("3*2-2");
     }
 }

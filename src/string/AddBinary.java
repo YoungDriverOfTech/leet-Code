@@ -1,7 +1,31 @@
 package string;
 
 public class AddBinary {
+
     public String addBinary(String a, String b) {
+        int indexA = a.length() - 1;
+        int indexB = b.length() - 1;
+        int add = 0;
+
+        StringBuilder sb = new StringBuilder();
+        int sum = 0;
+        while (indexA >= 0 || indexB >= 0 || add != 0) {
+            int number1 = indexA >= 0 ? a.charAt(indexA) - '0': 0;
+            int number2 = indexB >= 0 ? b.charAt(indexB) - '0' : 0;
+
+            sum = number1 + number2 + add;
+
+            sb.append(sum % 2);
+            add = sum / 2;
+
+            indexA--;
+            indexB--;
+        }
+
+        return sb.reverse().toString();
+    }
+
+    public String addBinary_1(String a, String b) {
         if ("0".equals(a) && "0".equals(b)) {
             return "0";
         }
