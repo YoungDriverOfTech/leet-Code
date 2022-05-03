@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class MaximalRectangle {
     // https://leetcode.wang/leetCode-85-Maximal-Rectangle.html
+    // 就是求出每一层的 heights[] 然后传给上一题的函数就可以了。
     public int maximalRectangle(char[][] matrix) {
         if (matrix.length == 0) {
             return 0;
