@@ -2,7 +2,14 @@ package bs;
 
 public class LengthOfLIS {
     // 遍历这个数组，把每个数组的数字放进dp数组里面去查找，如果发现大于dp的任何一个，则存到最后
-    // 如果发现小于的话，那么就放到对应的位置，这个位置就是首个大于此元素的前面
+    // 否则就放到比这个元素大的那一些元素中，最小的那个元素的位置上
+    // [10,9,2,5,3,7,101,18]
+    // dp: 10
+    // dp: 9(因为9比10小，所以10被替换掉)
+    // dp: 2(同上)
+    // dp: 2, 5(5比dp中的所有元素都大，所以放入后面)
+    // dp: 3,5 ,7, 101
+    // dp: 3,5,7, 18
     // https://www.bilibili.com/video/BV11S4y1M7sd?spm_id_from=333.337.search-card.all.click
     // https://leetcode-cn.com/problems/longest-increasing-subsequence/solution/zui-chang-shang-sheng-zi-xu-lie-dong-tai-gui-hua-e/
     public int lengthOfLIS(int[] nums) {
