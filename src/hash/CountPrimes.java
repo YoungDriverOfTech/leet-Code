@@ -17,7 +17,7 @@ public class CountPrimes {
                 result++;
 
                 // 遍历该指数的倍数，然后设置为合数,比如2 -> 4, 6, 8, 10
-                for (int j = i + i; j < n; j = j + i) {     // 这个for应该写进isPrime[i] == 1 里面，因为如果是一个合数，那么就没有必要把合数后面的倍数在重置成0了
+                for (int j = i; j < n; j = j + i) {     // 这个for应该写进isPrime[i] == 1 里面，因为如果是一个合数，那么就没有必要把合数后面的倍数在重置成0了
                     isPrime[j] = 0;
                 }
             }
