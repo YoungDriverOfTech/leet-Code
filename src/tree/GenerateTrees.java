@@ -16,7 +16,7 @@ public class GenerateTrees {
 //    至于，[ 2 ... n ] 的所有可能以及 [ 4 ... n ] 以及其他情况的所有可能，可以利用上边的方法，把每个数字作为根节点，然后把所有可能的左子树和右子树组合起来即可。
 //    如果只有一个数字，那么所有可能就是一种情况，把该数字作为一棵树。而如果是 [ ]，那就返回 null。
 
-    // https://leetcode-cn.com/problems/unique-binary-search-trees-ii/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-2-7/
+    // https://leetcode-cn.com/problems/unique-binary-search-trees-ii/solution/bu-tong-de-er-cha-sou-suo-shu-ii-by-leetcode-solut/
     public List<TreeNode> generateTrees(int n) {
         if (n == 0) {
             return Collections.emptyList();
@@ -46,6 +46,7 @@ public class GenerateTrees {
             List<TreeNode> right = getAns(i + 1, end);
 
             // 组合左右子树
+            // 从左子树集合中选出一棵左子树，从右子树集合中选出一棵右子树，拼接到根节点上
             for (TreeNode leftNode : left) {
                 for (TreeNode rightNode : right) {
                     TreeNode root = new TreeNode(i);
