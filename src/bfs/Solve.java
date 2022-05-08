@@ -10,7 +10,7 @@ public class Solve {
         int rows = board.length;
         int columns = board[0].length;
 
-        // 把边界上面的O换成别的字符
+        // 如果边界上是O，那么就把和边界相邻的所有的O都换成#
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 boolean isBorder = i == 0 || j == 0 || i == rows - 1 || j == columns - 1;
@@ -20,7 +20,8 @@ public class Solve {
             }
         }
 
-        // 把O换成X
+        // 把剩余的不和边界相连的O换成X
+        // 然后把#换回O即可
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < columns; j++) {
                 if (board[i][j] == 'O') {
