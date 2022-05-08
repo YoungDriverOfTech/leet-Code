@@ -4,21 +4,26 @@ public class Flatten {
 
     // 后序遍历
     // https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list/comments/
+    // 将节点的右子树放在左子树下，递归处理
     public void flatten(TreeNode root) {
-        if (root == null) {
+        if (root==null){
             return;
         }
-
         flatten(root.left);
         flatten(root.right);
 
-        TreeNode temp = root.right;
-        root.right = root.left;
-        root.left = null;
+        TreeNode left = root.left;
+        TreeNode right = root.right;
 
-        while (root.right != null) {
-            root = root.right;
+        // 将原来的左子树挂在根结点的右端
+        root.left = null;
+        root.right = left;
+
+        // 遍历到先前节点右子树的末端，然后将原来的右子树链接到末端
+        TreeNode p = root;
+        while(p.right!=null){
+            p = p.right;
         }
-        root.right = temp;
+        p.right = right;
     }
 }
