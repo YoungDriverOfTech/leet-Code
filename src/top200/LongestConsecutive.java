@@ -14,17 +14,17 @@ public class LongestConsecutive {
             set.add(num);
         }
 
-        // 每次都找最小的树，即比他更小的数是不存在的，从这个书开始遍历，一次次+1，直到找完所有的数
+        // 每次都找最小的树，即比他更小的数是不存在的，从这个数开始遍历，一次次+1，直到找完所有的数
         int result = 0;
-        for (int i = 0; i < nums.length; i++) {
-            int num = nums[i];
+        for (int num : nums) {
             // 当前数字减1，在hash表里面找不到，所以当前数字是一个阶段性最小数字
             if (!set.contains(num - 1)) {
-                int count = 1;
-                int temp = 1;
-                while (set.contains(num + temp)) {
-                    count++;
-                    temp++;
+                int currentNum = num;
+                int count = 1;  // 因为算上了num，所以声明为1
+
+                while (set.contains(currentNum + 1)) {
+                    currentNum += 1;
+                    count += 1;
                 }
 
                 result = Math.max(result, count);
