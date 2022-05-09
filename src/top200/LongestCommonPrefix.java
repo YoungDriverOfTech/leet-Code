@@ -3,6 +3,8 @@ package top200;
 public class LongestCommonPrefix {
 
     // https://leetcode-cn.com/problems/longest-common-prefix/comments/
+    // time O(mn) n是单词平均长度
+    // space O(1)
     public String longestCommonPrefix(String[] strs) {
         if (strs.length == 0) {
             return "";
