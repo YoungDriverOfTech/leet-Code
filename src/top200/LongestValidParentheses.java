@@ -20,7 +20,7 @@ public class LongestValidParentheses {
             char ch = chars[i];
 
             if (ch == '(') {
-                stack.push(i);
+                stack.push(i);  // 弹出是因为括号是两个一对，需要先弹出做括号，才能计算长度
             } else {
                 stack.pop();
                 if (stack.isEmpty()) {
