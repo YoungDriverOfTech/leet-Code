@@ -1,51 +1,55 @@
 package orderbyasc;
 
 public class Search {
-    // https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/java-xiang-xi-pou-xi-dai-ma-jian-ji-si-l-vm8u/
-    public boolean search(int[] nums, int target) {
-        // 根据题意，数组是经过旋转的，那么一旦计算出mid的话，那么mid一定是坐落于某一个非递减的区间，左或者右
-        // 2,5,6,0,0,1,2 -> mid是0，那么左区间2,5,6,0不是非递减的，二分查找不能发生在这里
-        //                  mid是0，那么右区间0,0,1,2是非递减的，二分查找应该发生在这里
+    // https://leetcode.cn/problems/search-in-rotated-sorted-array-ii/solution/zai-javazhong-ji-bai-liao-100de-yong-hu-by-reedfan/
 
-        int left = 0;
-        int right = nums.length - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
+    /**
+     * 第一类
+     * 10111 和 11101 这种。此种情况下 nums[start] == nums[mid]，分不清到底是前面有序还是后面有序，此时 start++ 即可。相当于去掉一个重复的干扰项。
+     * 第二类
+     * 2 3 4 5 6 7 1 这种，也就是 nums[start] < nums[mid]。此例子中就是 2 < 5；
+     * 这种情况下，前半部分有序。因此如果 nums[start] <= target < nums[mid]，则在前半部分找，否则去后半部分找。
+     * 第三类
+     * 6 7 1 2 3 4 5 这种，也就是 nums[start] > nums[mid]。此例子中就是 6 > 2；
+     * 这种情况下，后半部分有序。因此如果 nums[mid] < target <= nums[end]。则在后半部分找，否则去前半部分找。
+     *
+     * */
+    public boolean search(int[] nums, int target) {
+        if (nums == null || nums.length == 0) {
+            return false;
+        }
+        int start = 0;
+        int end = nums.length - 1;
+        int mid;
+        while (start <= end) {
+            mid = start + (end - start) / 2;
             if (nums[mid] == target) {
                 return true;
             }
-
-            // 因为题目要求元素可以重复，所以会出现这种恶心的case
-            // [1,0,1,1,1]
-            // 0
-            // 我们需要保证区间的递增，如果做指针的值=mid的值！= target，那么我们可以指针把做指针往右边移动
-            while (left <= mid && nums[left] == nums[mid]) {
-                left++;
-            }
-            // 因为left指针移动会可能会产生边界问题，所以我们要返回最上层的while，再去check一次边界条件
-            if (left > mid) {
-                left = mid + 1;
+            if (nums[start] == nums[mid]) {
+                start++;
                 continue;
             }
-
-            // 先判断那个区间是非递减的，然后移动双指针
-            if (nums[left] <= nums[mid]) {  // 左区间非递减
-                // 判断target是不是严格被包裹在【left，mid】中
-                if (nums[left] <= target && target < nums[mid]) {   // 因为target和mid相等在上面的逻辑判断过了，所以这块不需要等号，如果不满足条件，那么target一定是在mid右边
-                    right = mid - 1;
-                } else {
-                    left = mid + 1; // 根据22行，这里可以放心大胆的+1
+            //前半部分有序
+            if (nums[start] < nums[mid]) {
+                //target在前半部分
+                if (nums[mid] > target && nums[start] <= target) {
+                    end = mid - 1;
+                } else {  //否则，去后半部分找
+                    start = mid + 1;
                 }
-            } else {    // 右区间非递减
-                // 判断target是不是严格被包裹在【mid，right】中
-                if (nums[mid] < target && target <= nums[right]) {
-                    left = mid + 1;
-                } else {
-                    right = mid - 1; // 根据22行，这里可以放心大胆的+1
+            } else {
+                //后半部分有序
+                //target在后半部分
+                if (nums[mid] < target && nums[end] >= target) {
+                    start = mid + 1;
+                } else {  //否则，去后半部分找
+                    end = mid - 1;
+
                 }
             }
         }
-
+        //一直没找到，返回false
         return false;
     }
 
