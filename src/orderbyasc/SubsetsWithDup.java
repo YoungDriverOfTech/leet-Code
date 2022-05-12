@@ -28,6 +28,8 @@ public class SubsetsWithDup {
         //这里遍历的时候每次都有从之前选择元素的下一个开始，所以这里i的初始值是level
         for (int i = level; i < nums.length; i++) {
             //剪枝，过滤掉重复的
+            // 比如 2（索引为1）这个元素，被遍历到的时候，会进行一次回溯 -> 会把这个2加入到元素res中
+            // 然后从tempList中弹出，取出下一个2（索引为2），应为单个2已经在上一轮追加过了，所以这一轮就不在进行追加
             if (i != level && nums[i] == nums[i - 1])
                 continue;
             //选择当前元素
