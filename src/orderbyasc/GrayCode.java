@@ -12,9 +12,9 @@ public class GrayCode {
         for (int i = 0; i < n; i++) {
             for (int j = res.size() - 1; j >= 0; j--) {
                 // 先把每个数字左移一位，即对称先的上半部分
-                int num = res.get(j) << 1;
-                res.set(j, num);
-                res.add(num + 1);
+                int num = res.get(j) << 1;// 上半部分后面+0
+                res.set(j, num);    // 上半部分后面+0
+                res.add(num + 1);   // 下班部分后面+1
             }
         }
         return res;
