@@ -2,6 +2,8 @@ package top200;
 
 public class IsPowerOfThree {
     // https://leetcode-cn.com/problems/power-of-three/solution/gong-shui-san-xie-yi-ti-san-jie-shu-xue-8oiip/
+    // 时间复杂度：O(log3n)
+    // 空间复杂度：O(1)
     public boolean isPowerOfThree(int n) {
         if (n <= 0) return false;
         while (n % 3 == 0) {
