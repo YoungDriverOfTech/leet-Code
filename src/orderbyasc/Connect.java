@@ -11,7 +11,7 @@ public class Connect {
         Node cur = root;
         while (cur != null) {
             // create a dummyNode that always points at the first node at next layer
-            Node dummy = new Node(0);
+            Node dummy = new Node(0);   // dummy.next始终指向下一层首先出现的节点
             Node pre = dummy;   // every layer is a linkedlist and pre is the head node of linkedlist
 
             while (cur != null) {
@@ -26,10 +26,10 @@ public class Connect {
                 }
 
                 //for the root node, it's to quit this loop
-                cur = cur.next;
+                cur = cur.next; // 第二层从2移动到3
             }
 
-            cur = dummy.next;
+            cur = dummy.next;   // cur节点移动到下一层
         }
 
         return root;

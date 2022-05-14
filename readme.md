@@ -42,10 +42,10 @@
 [6道](./order.md)
 
 # 二. LeetCode精选TOP面试题 剩余题目
-[剩余题目](./top200.md)
+[剩余题目（54）](./top200.md)
 
 # 三. LeetCode热题HOT100 剩余题目
-[剩余题目](./hot100.md)
+[剩余题目（18）](./hot100.md)
 
 # 四. 按着顺序做
-[剩余题目](./orderbyasc.md)
+[剩余题目（35）](./orderbyasc.md)
