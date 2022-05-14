@@ -12,6 +12,7 @@ public class WordBreak {
         Set<String> set = new HashSet<>(wordDict);
 
         // 假定空字符串是存在于字符串字典中的，dp[0] = true;
+        // dp[i]表示,(0,i)中间的字符串是否在字典中包含
         boolean[] dp = new boolean[len + 1];
         dp[0] = true;
 
