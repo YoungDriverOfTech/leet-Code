@@ -51,7 +51,7 @@ public class FindWords {
         sb.append(board[i][j]);
         if (node.children[board[i][j] - 'a'].isEnd) {   // 判断的条件不能是node.isEnd
             resultSet.add(sb.toString());
-//            return;   注意，这里不能接上return，
+//            return;   注意，这里不能接上return，因为sb已经加上了最后一个单词，但是要进行回溯的话，需要把加上的这个字符给去掉，所以让他直接执行下面的逻辑
         }
 
         // 把当前字符设置为已被查找过的元素，然后上下左右四个方向去查找剩余字符
