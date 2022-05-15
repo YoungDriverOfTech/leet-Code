@@ -1,6 +1,7 @@
 package backtrack;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class CombinationSum {
@@ -32,6 +33,38 @@ public class CombinationSum {
 
             list.remove(list.size() - 1);
             sum -= num;
+        }
+    }
+
+    // https://leetcode.cn/problems/combination-sum/solution/hui-su-shi-jian-chao-guo-9992-si-lu-qing-jzka/
+    List<List<Integer>> res;
+    public List<List<Integer>> combinationSum_1(int[] candidates, int target) {
+        res = new ArrayList<>();
+        Arrays.sort(candidates);
+
+        backtrack(candidates, target, new ArrayList<>(), 0);
+
+        return res;
+    }
+
+    private void backtrack(int[] candidates, int remains, List<Integer> path, int start){
+        if(remains == 0){
+            res.add(new ArrayList<>(path));
+            return;
+        }
+
+        for(int i = start; i < candidates.length; i++){
+            if(candidates[i] > remains)
+                return;
+
+            if(i > 0 && candidates[i] == candidates[i-1])   continue;
+            //[2,2,3,5]
+
+            path.add(candidates[i]);
+
+            backtrack(candidates, remains - candidates[i], path, i);
+
+            path.remove(path.size() - 1);
         }
     }
 }
