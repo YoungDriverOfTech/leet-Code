@@ -1,6 +1,8 @@
 package tree;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
 public class BuildTree {
     public TreeNode buildTree(int[] preorder, int[] inorder) {
@@ -32,5 +34,43 @@ public class BuildTree {
             }
         }
         return -1;
+    }
+
+
+    private int[] preorder;
+    private int[] inorder;
+    private Map<Integer, Integer> map = new HashMap<>();
+
+    public TreeNode buildTree_1(int[] preorder, int[] inorder) {
+        // 复制给全局变量，方便操作
+        this.preorder = preorder;
+        this.inorder = inorder;
+
+        // 我们把中序遍历的数组存入一个map，key=节点值 value=节点索引
+        for (int i = 0; i < inorder.length; i++) {
+            map.put(inorder[i], i);
+        }
+
+        return helper(0, preorder.length - 1, 0, inorder.length - 1);
+    }
+
+    private TreeNode helper(int preStart, int preEnd, int inStart, int inEnd) {
+
+        // 如果数组的开始索引大于了结束索引，返回null节点即可
+        if (preStart > preEnd || inStart > inEnd) {
+            return null;
+        }
+
+        // 因为先序遍历的头节点就是根节点，所以我们那出头元素来构造跟节点
+        int rootVal = preorder[preStart];
+        TreeNode root = new TreeNode(rootVal);
+
+        // 找到跟节点在中序遍历中的索引位置
+        int rootIndex = map.get(rootVal);
+
+        root.left = helper(preStart + 1, preStart + (rootIndex - inStart), inStart, inEnd - 1);
+        root.right = helper(preStart + (rootIndex - inStart) + 1, preEnd, rootIndex + 1, inEnd);
+
+        return root;
     }
 }
