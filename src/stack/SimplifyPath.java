@@ -4,6 +4,11 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class SimplifyPath {
+
+    // 想按照/开划分字符串，然后把划分出来的字符串进行判断，如果是. 表明字符串表示的是当前目录，不用管
+    // 如果不是.,说明找到了一个目录或者文件，那么就把这个子字符串加入到栈中
+    // 如果是.. 说明需要返回上一级目录，那么把栈顶的元素出现，表示已经返回上一层目录，
+    // 最后把栈里面的元素拼接起来即可
     public String simplifyPath(String path) {
         // item 为有效值 ：存入栈中；
         // item 为 .. ：弹出栈顶元素（若存在）；
