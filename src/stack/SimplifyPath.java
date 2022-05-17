@@ -1,7 +1,9 @@
 package stack;
 
 import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.Deque;
+import java.util.List;
 
 public class SimplifyPath {
 
@@ -54,6 +56,18 @@ public class SimplifyPath {
     }
 
     public static void main(String[] args) {
-        new SimplifyPath().simplifyPath("/home//foo/");
+//        new SimplifyPath().simplifyPath("/home//foo/");
+
+        List<String> list = new ArrayList<>();
+        list.add("11");
+        System.out.println(list); // [11]
+        change(list);
+        System.out.println(list); // [11]
+
+    }
+
+    private static void change(List<String> list) {
+        list = new ArrayList<>();
+        list.add("222");
     }
 }
