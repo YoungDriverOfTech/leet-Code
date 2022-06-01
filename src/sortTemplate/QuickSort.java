@@ -14,15 +14,14 @@ public class QuickSort{
             return;
         }
 
-        int pivotIndex = partition(arr, left, right, right);
+        int pivotIndex = partition(arr, left, right);
         quickSort(arr, left, pivotIndex - 1);
         quickSort(arr, pivotIndex + 1, right);
     }
 
-    private int partition(int[] arr, int left, int right, int pivotIndex) {
-        // 永远把基准值放到最右边
-        int pivot = arr[pivotIndex];
-        swap(arr, right, pivotIndex);
+    private int partition(int[] arr, int left, int right) {
+        // 挑选最右边的元素作为基准值
+        int pivot = arr[right];
 
         // 从左到右的遍历整个数组，日过比基准值小，那么就和storeIndex交换
         int storeIndex = left;
