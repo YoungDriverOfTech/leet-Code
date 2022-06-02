@@ -1,41 +1,37 @@
 package array;
 
 public class NextPermutation {
+    // https://leetcode.cn/problems/next-permutation/solution/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/
     public void nextPermutation(int[] nums) {
-        // 4,5,2,6,3,1  ->  4,5,3,6,2,1  交换了2 ，3
-        // 思路： 1. 从右往左找，先找到一个数，这个数比他后面的数要小，并且记录下来这个数字
-        //       2. 再次从后往前找，找到第一个大于1.中找到的那个数字，并且交换他们的位置，然后把1.数字后的元素进行升序排序
-        //       3. 如果全部没找到的话，那么说明这个数组就是倒序的数组，直接转变成升序的就行
-        int i = nums.length - 2;
-        while (i >= 0 && nums[i] >= nums[i + 1]) {
+        int len = nums.length;
+        int i = len - 2;
+        int j = len - 1;
+        int k = len - 1;
+        while (i >= 0 && nums[i] >= nums[j]) {
             i--;
-        }
+            j--;
+        }//从后往前找
 
-        if (i >= 0) {   // 这里必须要+等号， 为了只有2个元素的数组，比如{1, 2}
-            int j = nums.length - 1;
-            while (j > i && nums[i] >= nums[j]) {
-                j--;
+        if (i >= 0) {//不是最后一个序列
+            while (nums[i] >= nums[k]) {
+                k--;
             }
-            swap(nums, i, j);
+            swap(nums, i, k);
         }
-        ascOrder(nums, i);
+        reverse(nums, j, len - 1);
     }
 
-    private void ascOrder(int[] nums, int i) {
-        int left = i + 1;   // 这里i要加1
-        int right = nums.length - 1;
-        while (left < right) {
-            // 因为i之后的元素全部是倒序的，所以可以不用判断数字大小了
-            swap(nums, left, right);
-            left++;
-            right--;
-        }
+    public void swap(int[] nums, int a, int b) {
+        int temp = nums[a];
+        nums[a] = nums[b];
+        nums[b] = temp;
+
     }
 
-    private void swap(int[] nums, int i, int j) {
-        int temp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = temp;
+    public void reverse(int[] nums, int a, int b) {
+        while (a < b) {
+            swap(nums, a++, b--);
+        }
     }
 
     public static void main(String[] args) {
