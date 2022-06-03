@@ -4,7 +4,11 @@ import java.util.Stack;
 
 public class Calculate {
     public static int calculate(String s) {
-        Stack<Integer> stack = new Stack<Integer>();
+
+        // 只有在遇到（括号时候， 才需要把做括号之前的数据压入栈中
+        // 遇到右括号的话，需要把栈中数据取出来和res进行计算
+        Stack<Integer> stack = new Stack<>();
+
         // sign 代表正负
         int sign = 1, res = 0;
         int length = s.length();
