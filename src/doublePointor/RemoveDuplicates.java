@@ -10,9 +10,15 @@ public class RemoveDuplicates {
             return 0;
         }
 
+        // 最终结果的索引
         int left = 1;
+
+        // 遍历数组的临时索引
         int right = 1;
 
+        // 1，1，2，2，3
+        // 现在left right都指向第二个1，right判断和right-1的元素相等不。 如果相等那么继续往后找right++
+        // 如果不想等，那么就把当前的right的值贴到left上，并且left 也移动指针就可以了
         while (right < nums.length) {
             if (nums[right] != nums[right - 1]) {
                 nums[left] = nums[right];
