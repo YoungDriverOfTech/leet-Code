@@ -2,10 +2,7 @@ package hash;
 
 import top200.Solution;
 
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class TopKFrequent {
     // https://leetcode-cn.com/problems/top-k-frequent-elements/solution/qian-k-ge-gao-pin-yuan-su-by-leetcode-solution/
@@ -44,32 +41,28 @@ public class TopKFrequent {
 
     // 小根堆
     public int[] topKFrequent_1(int[] nums, int k) {
-        Map<Integer, Integer> occurrences = new HashMap<Integer, Integer>();
+
+        // 用一个map统计处每个元素出现的次数
+        int[] result = new int[k];
+        HashMap<Integer, Integer> map = new HashMap<>();
         for (int num : nums) {
-            occurrences.put(num, occurrences.getOrDefault(num, 0) + 1);
+            map.put(num, map.getOrDefault(num, 0) + 1);
         }
 
-        // int[] 的第一个元素代表数组的值，第二个元素代表了该值出现的次数
-        PriorityQueue<int[]> queue = new PriorityQueue<int[]>(new Comparator<int[]>() {
-            public int compare(int[] m, int[] n) {
-                return m[1] - n[1];
-            }
-        });
-        for (Map.Entry<Integer, Integer> entry : occurrences.entrySet()) {
-            int num = entry.getKey(), count = entry.getValue();
-            if (queue.size() == k) {
-                if (queue.peek()[1] < count) {
-                    queue.poll();
-                    queue.offer(new int[]{num, count});
-                }
-            } else {
-                queue.offer(new int[]{num, count});
+        Set<Map.Entry<Integer, Integer>> entries = map.entrySet();
+        // 根据map的value值正序排，相当于一个小顶堆
+        PriorityQueue<Map.Entry<Integer, Integer>> queue = new PriorityQueue<>((o1, o2) -> o1.getValue() - o2.getValue());
+
+        // 因为小根堆最小的元素在堆顶，所以一旦出现堆size超过k的情况，那么就把最小的元素给拿出去，这样等遍历完以后，堆里面剩下的就是前k大的元素
+        for (Map.Entry<Integer, Integer> entry : entries) {
+            queue.offer(entry);
+            if (queue.size() > k) {
+                queue.poll();
             }
         }
-        int[] ret = new int[k];
-        for (int i = 0; i < k; ++i) {
-            ret[i] = queue.poll()[0];
+        for (int i = k - 1; i >= 0; i--) {
+            result[i] = queue.poll().getKey();
         }
-        return ret;
+        return result;
     }
 }
