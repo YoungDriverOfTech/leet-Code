@@ -9,7 +9,10 @@ public class NextGreaterElement {
         int len1 = nums1.length;
         int len2 = nums2.length;
 
+        // 用来存放下一个更大的值
         Map<Integer, Integer> map = new HashMap<>();
+
+        // 用来存放遍历数组的值（单调递减栈）
         Stack<Integer> stack = new Stack<>();
 
         for (int i = len2 - 1; i >= 0; i--) {
