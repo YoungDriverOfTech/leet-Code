@@ -1,6 +1,9 @@
 package stack;
 
-import java.util.*;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Stack;
 
 public class NextGreaterElement {
     // https://leetcode-cn.com/problems/next-greater-element-i/solution/dan-diao-zhan-jie-jue-next-greater-number-yi-lei-w/
