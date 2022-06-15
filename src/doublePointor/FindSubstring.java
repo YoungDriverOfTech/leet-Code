@@ -57,4 +57,14 @@ public class FindSubstring {
 
         return res;
     }
+
+
+//    "barfoothefoobarman"
+//            ["foo","bar"]
+    public static void main(String[] args) {
+        String param = "barfoothefoobarman";
+        String[] param2 = new String[]{"foo","bar"};
+
+        new FindSubstring().findSubstring(param, param2);
+    }
 }
