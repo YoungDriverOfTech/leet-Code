@@ -4,6 +4,8 @@ import java.util.Stack;
 
 public class LongestValidParentheses {
     // https://leetcode-cn.com/problems/longest-valid-parentheses/solution/zui-chang-you-xiao-gua-hao-by-leetcode-solution/
+    // O(n)
+    // O(n)
     public int longestValidParentheses(String s) {
         if (s == null || s.length() == 0 || s.length() == 1) {
             return 0;

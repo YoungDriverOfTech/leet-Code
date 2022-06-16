@@ -2,6 +2,8 @@ package array;
 
 public class NextPermutation {
     // https://leetcode.cn/problems/next-permutation/solution/xia-yi-ge-pai-lie-suan-fa-xiang-jie-si-lu-tui-dao-/
+    // time O(n)
+    // space O(1)
     public void nextPermutation(int[] nums) {
         int len = nums.length;
         int i = len - 2;

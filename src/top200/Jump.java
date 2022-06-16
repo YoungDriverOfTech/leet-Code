@@ -1,5 +1,8 @@
 package top200;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Jump {
 
     // time: O(n) / space: O(1)
