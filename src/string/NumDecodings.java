@@ -46,6 +46,36 @@ public class NumDecodings {
         return dp[s.length() - 1];
     }
 
+    // 如果当前数字可以当作一个数字来翻译，那么dp[i] == dp[i - 1]
+    // 如果当前数字和前一个数字能当作一组数字来翻译，那么dp[i] == dp[i - 1] + dp[i - 2]
+    // 并且我们需要让dp[0] == 1, 因为如果翻译到了第一个字符，明显是一种方法，那么dp[i] == dp[i - 1]时，我们需要让它正确
+    public int numDecodings_1(String s) {
+        if (s == null || s.length() == 0) {
+            return 0;
+        }
+
+        int len = s.length();
+        int[] dp = new int[len + 1];
+        dp[0] = 1;
+
+        for (int i = 1; i <= len; i++) {
+            // 当作一个字符翻译
+            if (s.charAt(i - 1) != '0') {
+                dp[i] = dp[i - 1];
+            }
+
+            // 和前一个字符组成一对儿翻译
+            if (i > 1) {
+                int num = (s.charAt(i - 2) - '0') * 10 + (s.charAt(i - 1) - '0');
+                if (num >= 10 && num <= 26) {
+                    dp[i] += dp[i - 2];
+                }
+            }
+        }
+
+        return dp[len];
+    }
+
     public static void main(String[] args) {
         new NumDecodings().numDecodings("2101");
     }
