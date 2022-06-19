@@ -5,6 +5,7 @@ import java.util.List;
 
 public class GrayCode {
     // https://www.bilibili.com/video/BV17r4y1s7q2?spm_id_from=333.337.search-card.all.click
+    // time/space O(2^n)
     public List<Integer> grayCode(int n) {
         List<Integer> res = new ArrayList<>();
         res.add(0);
