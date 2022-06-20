@@ -25,7 +25,7 @@ public class QuickSort{
 
         // 从左到右的遍历整个数组，日过比基准值小，那么就和storeIndex交换
         int storeIndex = left;
-        for (int i = left; i < right; i++) {
+        for (int i = left; i < right; i++) {    // 这里i < right 不应该有等于号，因为最右边的元素被当成比较标准元素，最后会进行交换，所以不能写等号
             if (arr[i] <= pivot) {
                 swap(arr, i, storeIndex);
                 storeIndex += 1;    // 这个的左边，一直存放的小于pivot的值，所以一旦发生了交换，这个索引就需要往右移动
