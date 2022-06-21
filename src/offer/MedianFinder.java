@@ -27,7 +27,7 @@ public class MedianFinder {
             if (right.isEmpty() || num <= right.peek()) {
                 left.add(num);
             } else {
-                left.add(right.poll());
+                left.add(right.poll()); // 这里不能是pop，必须是poll， 因为队列不是栈
                 right.add(num);
             }
 
