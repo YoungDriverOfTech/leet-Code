@@ -10,7 +10,7 @@ public class TranslateNumber {
         dp[0] = 1;
 
         for (int i = 1; i < s.length(); i++) {
-            if (s.charAt(i - 1) == '1' || (s.charAt(i - 1) == '2' && s.charAt(i) <= '5')) {
+            if (s.charAt(i - 1) == '1' || (s.charAt(i - 1) == '2' && s.charAt(i) <= '5')) { // 注意，这里的条件是前面一个，和后面两个，不要搞混了。
                 if (i == 1) {
                     dp[i] = 2;
                 } else {
