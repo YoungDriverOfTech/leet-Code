@@ -38,39 +38,36 @@ public class MaxSlidingWindow {
             return new int[0];
         }
 
-        // result array
-        int[] resultArray = new int[nums.length - k + 1];
+        int len = nums.length;
+        int[] res = new int[len - k + 1];
 
-        Deque<Integer> queue = new LinkedList<>();
-        // form first circle
-        queue.addLast(nums[0]);
-        for (int i = 1; i < k; i++) {
-            // keep queue in desc order
-            while (!queue.isEmpty() && queue.peekLast() < nums[i]) {    // 注意，保持单调递减，要还最后一个元素 queue.peekLast()，而不是首个元素
-                queue.removeLast();
+        LinkedList<Integer> stack = new LinkedList<>();
+        for (int i = 0; i < k; i++) {
+            int num = nums[i];
+            while (!stack.isEmpty() && stack.getLast() < num) {
+                stack.removeLast();
             }
-            queue.addLast(nums[i]);
-        }
-        resultArray[0] = queue.peekFirst();
-
-        // form rest of circles
-        for (int i = k; i < nums.length; i++) {
-            // delete the first element of deque if necessary
-            if (queue.peekFirst() == nums[i - k]) {
-                queue.removeFirst();
-            }
-
-            // keep queue in desc order
-            while (!queue.isEmpty() && queue.peekLast() < nums[i]) {
-                queue.removeLast();
-            }
-            queue.addLast(nums[i]);
-
-            // add element to result
-            resultArray[i - k + 1] = queue.peekFirst();
+            stack.addLast(num);
         }
 
-        return resultArray;
+        int index = 0;
+        res[index++] = stack.getFirst();
+
+        for (int i = k; i < len; i++) {
+
+            if (nums[i - k] == stack.getFirst()) {
+                stack.removeFirst();
+            }
+
+            int num = nums[i];
+            while (!stack.isEmpty() && stack.getLast() < num) {
+                stack.removeLast();
+            }
+            stack.addLast(num);
+            res[index++] = stack.getFirst();
+        }
+
+        return res;
     }
 
     public static void main(String[] args) {
