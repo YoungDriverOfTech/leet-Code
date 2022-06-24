@@ -23,4 +23,27 @@ public class RemoveDuplicates {
         }
         return res;
     }
+
+    public int removeDuplicates_1(int[] nums) {
+        if (nums.length <= 2) {
+            return nums.length;
+        }
+
+        int left = 2;
+        int right = 2;
+        // 1,1,2,2,3,3
+        // left    ↑
+        // right     ↑
+
+        while (right < nums.length) {
+            if (nums[left - 2] == nums[right]) {       // 比较的精髓是用left - 2和right指针的值相比，不要用right - 2来比较
+                right++;
+            } else {
+                nums[left] = nums[right];
+                left++;
+                right++;
+            }
+        }
+        return left;
+    }
 }

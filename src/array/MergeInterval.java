@@ -8,9 +8,7 @@ public class MergeInterval {
     // https://leetcode-cn.com/problems/merge-intervals/solution/56-he-bing-qu-jian-jian-dan-yi-dong-liao-uxbo/
     public int[][] merge(int[][] intervals) {
         // 先把intervals进行排序，先按照第一个元素，然后是第二个
-        Arrays.sort(intervals, (o1, o2) -> {
-            return o1[0] == o2[0] ? o1[1] - o2[1] : o1[0] - o2[0];
-        });
+        Arrays.sort(intervals, (o1, o2) -> o1[0] == o2[0] ? o1[1] - o2[1] : o1[0] - o2[0]);
 
         // 定义开始和结束为止，如果当前的开始位置<上次的结束位置，说明有重叠，那么进行合并
         List<int[]> list = new ArrayList<>();
