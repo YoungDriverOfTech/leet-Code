@@ -4,6 +4,28 @@
 [快速排序模板](./src/sortTemplate/QuickSort.java)  
 [归并排序模板](./src/sortTemplate/Mergesort.java)
 
+用递归遍历二叉树
+```java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<Integer>();
+        Stack<TreeNode> stack = new Stack<>();
+        while (root != null || !stack.isEmpty()) {
+            while (root != null) {
+                stack.push(root);
+                root = root.left;
+            }
+
+            root = stack.pop();
+            res.add(root.val);
+            root = root.right;
+        }
+
+        return res;
+    }
+}
+```
+
 # 二. 分类
 ## 2.1 字符串
 [20道](./string.md)
