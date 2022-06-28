@@ -68,7 +68,7 @@ public class BuildTree {
         // 找到跟节点在中序遍历中的索引位置
         int rootIndex = map.get(rootVal);
 
-        root.left = helper(preStart + 1, preStart + (rootIndex - inStart), inStart, inEnd - 1);
+        root.left = helper(preStart + 1, preStart + (rootIndex - inStart), inStart, rootIndex - 1);
         root.right = helper(preStart + (rootIndex - inStart) + 1, preEnd, rootIndex + 1, inEnd);
 
         return root;
