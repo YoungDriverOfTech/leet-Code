@@ -17,6 +17,10 @@ public class Permute {
      *         做选择
      *         backtrack(路径, 选择列表)
      *         撤销选择
+     *
+     * time O(n!)
+     * 第一次可以选择3个，那么第二次可以选择两个，最后一次选择一个。
+     * 那么算下来就是3*2*1
      */
     public List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> res = new ArrayList<>();
