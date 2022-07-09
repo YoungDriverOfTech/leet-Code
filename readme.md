@@ -27,7 +27,6 @@ class Solution {
 ```
 
 二分查找
-> 
 ```java
 /**
  * while(left < right) 和 while(left <= right)怎么使用
