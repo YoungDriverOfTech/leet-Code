@@ -19,6 +19,7 @@ public class MaxEvents {
     // 第三天： 有一个会议能参加，把结束时间让入pq中，那么bq目前的状态就是3，3
     //         然后选择一个会议参加，参加了会议3，目前bq只剩下会议4
     // 第四天： events里面已经没有会议了，但是bq里面还有一个会议可以参加，那么参加完以后bq为空，就退出循环。
+    // 时间复杂度 O(Tlogn) T为天数，因为优先队列插入删除都是O(logn)所以相乘起来
     public int maxEvents(int[][] events) {
         Arrays.sort(events, (a, b) -> a[0] - b[0]);
         PriorityQueue<Integer> queue = new PriorityQueue<>();
