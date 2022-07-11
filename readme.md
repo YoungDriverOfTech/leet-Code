@@ -23,6 +23,26 @@ class Solution {
 
         return res;
     }
+
+    /**
+     * 非递归先序遍历二叉树
+     * */
+    public List<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> resultList=new ArrayList<>();
+        Stack<TreeNode> treeStack=new Stack<>();
+        if(root==null) //如果为空树则返回
+            return resultList;
+        treeStack.push(root);
+        while(!treeStack.isEmpty()){
+            TreeNode tempNode=treeStack.pop();
+            if(tempNode!=null){
+                resultList.add(tempNode.val);//访问根节点
+                treeStack.push(tempNode.right); //入栈右孩子
+                treeStack.push(tempNode.left);//入栈左孩子
+            }
+        }
+        return resultList;
+    }
 }
 ```
 
