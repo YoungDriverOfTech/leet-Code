@@ -91,7 +91,7 @@ class Solution {
 [20道](./string.md)
 
 ## 2.2 数组
-[20道](./array.md)
+[21道](./array.md)
 
 ## 2.3 二分查找
 [17道](./binarySearch.md)
