@@ -1,7 +1,5 @@
 # 一. 剑指Offer
 [剑指 Offer](./offer.md)  
-[1000 Plan](./1000Plan.md)
-
 [快速排序模板](./src/sortTemplate/QuickSort.java)  
 [归并排序模板](./src/sortTemplate/Mergesort.java)
 
