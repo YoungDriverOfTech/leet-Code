@@ -6,7 +6,7 @@ public class NthUglyNumber {
     public int nthUglyNumber(int n) {
         int[] resultArray = new int[n + 1];
         int p2 = 1, p3 = 1, p5 = 1;
-        resultArray[0] = 0; // dummy
+//        resultArray[0] = 0; // dummy
         resultArray[1] = 1;
 
         for (int i = 2; i < n + 1; i++) {
