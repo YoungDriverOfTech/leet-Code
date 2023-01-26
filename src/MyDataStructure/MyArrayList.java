@@ -44,12 +44,12 @@ public class MyArrayList {
             resize(2 * size);
         }
 
-        for (int i = index; i < size; i++) {
+        size++;
+        for (int i = size - 1; i > index; i--) {
             // todo fix out of index
-            elements[i + 1] = elements[i];
+            elements[i] = elements[i - 1];
         }
         elements[index] = value;
-        size++;
     }
 
     /**
