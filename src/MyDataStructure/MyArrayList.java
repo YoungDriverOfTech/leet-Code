@@ -58,7 +58,7 @@ public class MyArrayList {
 
     /**
      *
-     * @param value
+     * @param value element value
      */
     public void removeByValue(int value) {
 
@@ -70,8 +70,11 @@ public class MyArrayList {
      * @param value element value
      */
     public void set(int index, int value) {
-
+        rangeCheck(index);
+        elements[index] = value;
     }
+
+
 
     /**
      * Get element by index
@@ -79,7 +82,8 @@ public class MyArrayList {
      * @return element value
      */
     public int get(int index) {
-        return 0;
+        rangeCheck(index);
+        return elements[index];
     }
 
     /**
@@ -96,7 +100,7 @@ public class MyArrayList {
      * @return the length of array
      */
     public int length() {
-        return 0;
+        return size;
     }
 
     /**
@@ -104,10 +108,19 @@ public class MyArrayList {
      * @return true/false
      */
     public boolean isEmpty() {
-        return true;
+        return size == 0;
     }
 
 
+    /**
+     * Check index validity
+     * @param index element index
+     */
+    private void rangeCheck(int index) {
+        if (index < 0 || index >= size) {
+            throw new RuntimeException("Invalid index: " + index);
+        }
+    }
     public static void main(String[] args) {
 
     }
