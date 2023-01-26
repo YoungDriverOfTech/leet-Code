@@ -80,17 +80,20 @@ public class MyArrayList {
     /**
      * Remove the element by index
      * @param index element index
+     * @return removed element
      */
-    public void remove(int index) {
+    public int remove(int index) {
+        rangeCheck(index);
 
-    }
+        int toRemoved = elements[index];
 
-    /**
-     *
-     * @param value element value
-     */
-    public void removeByValue(int value) {
+        // Remove elements
+        for (int i = index; i < size - 1; i++) {
+            elements[i] = elements[i + 1];
+        }
+        size--;
 
+        return toRemoved;
     }
 
     /**
