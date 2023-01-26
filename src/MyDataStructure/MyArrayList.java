@@ -37,7 +37,36 @@ public class MyArrayList {
      * @param value element value
      */
     public void add(int index, int value) {
+        rangeCheckForAdd(index);
 
+        // resize
+        if (size == capacity) {
+            resize(2 * size);
+        }
+
+        for (int i = index; i < size; i++) {
+            // todo fix out of index
+            elements[i + 1] = elements[i];
+        }
+        elements[index] = value;
+        size++;
+    }
+
+    /**
+     * Dynamic grow list length
+     */
+    private void resize(int capacity) {
+        // Create a new array
+        int[] newElements = new int[capacity];
+
+        // Copy
+        for (int i = 0; i < size; i++) {
+            int value = elements[i];
+            newElements[i] = value;
+        }
+
+        elements = newElements;
+        this.capacity = capacity;
     }
 
     /**
@@ -45,7 +74,7 @@ public class MyArrayList {
      * @param value element value
      */
     public void add(int value) {
-
+        add(size, value);
     }
 
     /**
@@ -121,6 +150,17 @@ public class MyArrayList {
             throw new RuntimeException("Invalid index: " + index);
         }
     }
+
+    /**
+     * Check index validity for add
+     * @param index element index
+     */
+    private void rangeCheckForAdd(int index) {
+        if (index < 0 || index >= size) {
+            throw new RuntimeException("Invalid index: " + index);
+        }
+    }
+
     public static void main(String[] args) {
 
     }
