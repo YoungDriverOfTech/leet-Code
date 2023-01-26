@@ -88,10 +88,11 @@ public class MyArrayList {
         int toRemoved = elements[index];
 
         // Remove elements
-        for (int i = index; i < size - 1; i++) {
+        size--;
+        for (int i = index; i < size; i++) {
             elements[i] = elements[i + 1];
         }
-        size--;
+        elements[size] = 0;
 
         return toRemoved;
     }
