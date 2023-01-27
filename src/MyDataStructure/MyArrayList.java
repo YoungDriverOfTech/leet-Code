@@ -30,7 +30,6 @@ public class MyArrayList {
     }
 
     // methods
-
     /**
      * Add element into array
      * @param index element index
@@ -120,15 +119,6 @@ public class MyArrayList {
     }
 
     /**
-     * Get first element value equals with parameter value
-     * @param value element value
-     * @return element index
-     */
-    public int getFirstElementByValue(int value) {
-        return 0;
-    }
-
-    /**
      * Get the length of array list
      * @return the length of array
      */
@@ -143,7 +133,6 @@ public class MyArrayList {
     public boolean isEmpty() {
         return size == 0;
     }
-
 
     /**
      * Check index validity
@@ -163,9 +152,5 @@ public class MyArrayList {
         if (index < 0 || index >= size) {
             throw new RuntimeException("Invalid index: " + index);
         }
-    }
-
-    public static void main(String[] args) {
-
     }
 }
